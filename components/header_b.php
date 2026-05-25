@@ -4,10 +4,10 @@
     <div class="header-top-section">
         <div class="header-top-inner">
             <ul class="list-inline list-inline-lg offset-top-0 social-top" style="justify-content: flex-end;">
-                <li><a target="_blank" class="icon ion-logo-facebook social-facebook" href="https://www.facebook.com/pages/category/College---University/RCTs-Rashtriya-College-of-Pharmacy-108771150890999/"></a></li>
-                <li><a target="_blank" class="icon ion-logo-twitter social-twitter" href="https://www.facebook.com/pages/category/College---University/RCTs-Rashtriya-College-of-Pharmacy-108771150890999/"></a></li>
-                <li><a target="_blank" class="icon ion-logo-youtube social-youtube" href="https://www.youtube.com/channel/UC7WNwK6cdH5rmrzc0YreLpg"></a></li>
-                <li><a target="_blank" class="icon ion-logo-instagram social-instagram" href="https://www.instagram.com/rashtriya_college_of_pharmacy_/"></a></li>
+                <li><a target="_blank" class="icon ion-logo-facebook social-facebook" href="https://www.facebook.com/p/Loknete-Appasaheb-Rajale-College-of-Pharmacy-61571782545648/"></a></li>
+                <li><a target="_blank" class="icon ion-logo-twitter social-twitter" href="https://pharmacy.dprss.in"></a></li>
+                <li><a target="_blank" class="icon ion-logo-youtube social-youtube" href="https://pharmacy.dprss.in"></a></li>
+                <li><a target="_blank" class="icon ion-logo-instagram social-instagram" href="https://www.instagram.com/larcop_adinathnagar"></a></li>
             </ul>
         </div>
   </div>
@@ -20,22 +20,20 @@
             </div>
         </div>
         <div class="col-md-8">
-            <div class="title title-2"><h2 class="color-white">Rashtriya charitable trust's</h2></div>
-            <div class="title title-1"><h1 class="color-white">Rashtriya College of Pharmacy</h1></div>
+            <div class="title title-2"><h2 class="color-white">Shri. Dadapatil Rajale Shikshan Sanstha's</h2></div>
+            <div class="title title-1"><h1 class="color-white">Loknete Appasaheb Rajale College of Pharmacy</h1></div>
             <div class="title title-3">
                 <p class="color-white text-bold">
-                    Hatnur Tq. Kannad, Dist. Aurangabad - 431103 <br>
+                    Adinathnagar, Tq. Pathardi, Dist. Ahilyanagar - 414505 <br>
 
-                    Approved by AICTE, New Delhi, DTE, Mumbai, PCI, New Delhi and Affiliated to DBATU, Lonere, Raigad and MSBTE, Mumbai.
+                    Approved by DTE, Mumbai, PCI, New Delhi and Affiliated to DBATU, Lonere, Raigad and MSBTE, Mumbai.
                 </p>
             </div>
             <div class="d-flex flex-row justify-content-center">
-                <div class="approvals"><img src="img/approvel/AICTE.png" alt="AICTE"></div>
                 <div class="approvals"><img src="img/approvel/DTE.png" alt="DTE"></div>
                 <div class="approvals"><img src="img/approvel/DBATU.jpg" alt="DBATU"></div>
                 <div class="approvals"><img src="img/approvel/MSBTE.png" alt="MSBTE"></div>
                 <div class="approvals"><img src="img/approvel/PCI.png" alt="PCI"></div>
-                <div class="approvals"><img src="img/approvel/HTE.png" alt="HTE"></div>
             </div>
         </div>
     <!--       
@@ -97,7 +95,7 @@
                                 <li><a href="/president.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Hon. President  Profile</a></li>
                                 <li><a href="/secretary.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Hon. Secretary’s  Profile </a></li>
                                 <li><a href="/principal.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Principal’s  Profile</a></li>
-                                <li><a href="/about-trust.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Institutes under Rashtriya Charitable Trust</a></li>
+                                <li><a href="/about-trust.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Institutes under Shri. Dadapatil Rajale Shikshan Sanstha</a></li>
                                 <li><a href="/governing-body.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Governing Body</a></li>
 
                             </ul>

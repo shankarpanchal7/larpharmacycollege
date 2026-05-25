@@ -10,36 +10,30 @@
                       <h4>Contact</h4>
                       <ul class="icon_bunch">
                           <li>
-                              <a href="tel:9665489404"><i class="icon ion-md-call icon-small"></i>96 6548 9404</a>
+                              <a href="tel:[ADD_PHONE_1]"><i class="icon ion-md-call icon-small"></i>[ADD_PHONE_1]</a>
                           </li>
                           <li>
-                              <a href="tel:9049218744"><i class="icon ion-md-call icon-small"></i>90 4921 8744</a>
+                              <a href="tel:[ADD_PHONE_2]"><i class="icon ion-md-call icon-small"></i>[ADD_PHONE_2]</a>
                           </li>
-                          <li>
-                              <a href="tel:9512663979"><i class="icon ion-md-call icon-small"></i>95 1266 3979</a>
-                          </li>
-                          <li>
-                              <a href="tel:9421170430"><i class="icon ion-md-call icon-small"></i>94 2117 0430</a>
-                          </li>
-                          <li style="width: 274px"><a href="mailto:rashtriyacollege2009@gmail.com"><i class="icon ion-ios-mail icon-small"></i>rashtriyacollege2009@gmail.com</a></li>
+                          <li style="width: 274px"><a href="mailto:[ADD_EMAIL]"><i class="icon ion-ios-mail icon-small"></i>[ADD_EMAIL]</a></li>
                       </ul>                                                    
               </div>
               <div class="col-lg-4 col-md-4 col-sm-12 co-xs-12">
                       <h4>Institute Address</h4>
-                      <p>Rashtriya College of Pharmacy <br> (D. Pharm & B. Pharm), Hatnur.
-                          <br>Tal: Kannad
-                          Dist. Aurangabad
-                          Pin – 431103.
+                      <p>Loknete Appasaheb Rajale College of Pharmacy <br> (D. Pharm & B. Pharm), Adinathnagar.
+                          <br>Tq. Pathardi
+                          Dist. Ahilyanagar
+                          Pin – 414505.
                           Maharashtra, India.
                           </p>
               </div>
               <div class="col-lg-3 col-md-3 col-sm-12 co-xs-12">
                   <h4>Social links</h4>
                  <div class="social-links">
-                  <a target="_blank" class="icon ion-logo-facebook social-icon" href="https://www.facebook.com/RCTs-Rashtriya-College-of-Pharmacy-108771150890999/"></a>
-                  <a target="_blank" class="icon ion-logo-twitter social-icon" href="https://twitter.com/Rashtriyapharm"></a>
-                  <a target="_blank" class="icon ion-logo-youtube social-icon" href="https://www.youtube.com/channel/UC7WNwK6cdH5rmrzc0YreLpg"></a>
-                  <a target="_blank" class="icon ion-logo-instagram social-icon" href="https://www.instagram.com/rashtriya_college_of_pharmacy_/"></a>
+                  <a target="_blank" class="icon ion-logo-facebook social-icon" href="https://www.facebook.com/p/Loknete-Appasaheb-Rajale-College-of-Pharmacy-61571782545648/"></a>
+                  <a target="_blank" class="icon ion-logo-twitter social-icon" href="https://pharmacy.dprss.in"></a>
+                  <a target="_blank" class="icon ion-logo-youtube social-icon" href="https://pharmacy.dprss.in"></a>
+                  <a target="_blank" class="icon ion-logo-instagram social-icon" href="https://www.instagram.com/larcop_adinathnagar"></a>
                   </div>
 
                   <!--<div class="google-map mt-3">-->
@@ -55,7 +49,7 @@
           <div class="row">
               <div class="col-lg-12 col-md-12 col-sm-12 co-xs-12">
                  <!--<p class="cpy-txt">© 2021 Rashtriya College of Pharmacy All Right Reserved.Created By <a href="https://xpica.in" class="xpica">Shankar Panchal</a></p>     -->
-                 <p class="cpy-txt">© 2021 Rashtriya College of Pharmacy All Right Reserved.Created By <a href="https://github.com/shankarpanchal7/" class="xpica">Shankar Langote</a></p>     
+                 <p class="cpy-txt">© 2024 Loknete Appasaheb Rajale College of Pharmacy. All Rights Reserved. Developed By <a href="https://github.com/shankarpanchal7/" class="xpica">Shankar Langote</a></p>     
               </div>   
           </div>
       </div>

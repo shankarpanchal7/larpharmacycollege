@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="The college offers Diploma in Pharmacy (D. pharm.) And Bachelor of Pharmacy (B. Pharm.) courses."/>
-    <meta name="keywords" content="rcph,pharmacy,pharmacy course,b pharmacy college,d pharmacy college,pharmacy colleges in Hatnur,pharmacy colleges in aurangabad,pharmacy colleges"/>
-        <link rel="canonical" href="http://www.rcph.com/" />
+    <meta name="description" content="Loknete Appasaheb Rajale College of Pharmacy offers Diploma in Pharmacy (D. Pharm.) and Bachelor of Pharmacy (B. Pharm.) courses. Approved by DTE Mumbai, PCI New Delhi, Affiliated to DBATU and MSBTE."/>
+    <meta name="keywords" content="larcop,pharmacy,pharmacy course,b pharmacy college,d pharmacy college,pharmacy colleges adinathnagar,pharmacy colleges pathardi,pharmacy colleges ahilyanagar"/>
+        <link rel="canonical" href="https://pharmacy.dprss.in" />
         <meta property="og:locale" content="en-IN" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Rashtriya College of pharmacy" />
-        <meta property="og:description" content="Rashtriya College of pharmacy" />
-        <meta property="og:url" content="http://www.rcph.com/" />
-        <meta property="og:site_name" content="Rashtriya College of pharmacy" />
+        <meta property="og:title" content="Loknete Appasaheb Rajale College of Pharmacy" />
+        <meta property="og:description" content="Loknete Appasaheb Rajale College of Pharmacy - D. Pharm & B. Pharm Courses" />
+        <meta property="og:url" content="https://pharmacy.dprss.in" />
+        <meta property="og:site_name" content="Loknete Appasaheb Rajale College of Pharmacy" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:description" content="Rashtriya College of pharmacy" />
-        <meta name="twitter:title" content="Rashtriya College of pharmacy" />
+        <meta name="twitter:description" content="Loknete Appasaheb Rajale College of Pharmacy - Adinathnagar, Pathardi, Ahilyanagar" />
+        <meta name="twitter:title" content="Loknete Appasaheb Rajale College of Pharmacy" />
 
     <!-- CSS -->
     <link rel="stylesheet" href="vendors/css/normalize.css">
