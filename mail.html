@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="send_mail_facility2.php" id="facility-contact-form" method="post" autocomplete="on">
+        <!-- MAIN FIELDS -->
+        <input id="sendTo" name="sendTo" type="text" value="Facility One" style="display: none;">
+        <input id="name" name="name" type="text" placeholder="Name" required>
+        <input id="email" name="email" type="email" placeholder="Email" required>
+        <input id="phone" name="phone" type="text" placeholder="Phone number">
+        <textarea id="message" name="message" type="text" placeholder="Message"></textarea>
+      
+        <!-- ADDITIONAL FIELDS - separate js shows section when checkbox selected -->
+        <input id="infopack-checkbox" type="checkbox" name="checkbox" value="checkbox"><span class="information-pack">&nbsp;I would like to receive an information pack.</span>
+        <div id="address-details">
+          <input id="address" name="address" type="text" placeholder="Address">
+          <input id="city" name="city" type="text" placeholder="City">
+          <input id="postcode" name="postcode" type="text" placeholder="Postcode">
+        </div>
+      
+        <!-- reCAPTCHA html & js -->
+      
+        <input id="facility-submit" name="submit" type="submit" value="Send request" disabled style="opacity: 0.3;"> <!-- disabled & inline style for captcha -->
+        <p class="status" style="display: none" role="alert">Thanks, someone will be in contact with you regarding your enquiry soon.</p>
+      </form>
+      <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+      <script>
+          $(function(){
+        var request;
+        $("#facility-contact-form").on("submit", function(event){
+          event.preventDefault();
+          if (request) {
+            request.abort();
+          }
+          var $form = $(this);
+          var $inputs = $form.find("input, select, button, textarea");
+          var serializeData = $form.serialize();
+          $inputs.prop("disabled", true);
+          request = $.ajax({
+            url: "/mail.php",
+            type: "post",
+            data: serializeData
+          });
+          request.done(function (response, textStatus, jqXHR){
+            console.log("Hooray, it worked!");
+          });
+          request.fail(function (jqXHR, textStatus, errorThrown){
+            console.error("The following error occurred: "+
+                         textStatus, errorThrown);
+          });
+          request.always(function () {
+            $inputs.prop("disabled", false);
+          });
+        });
+      });
+      </script>
+</body>
+</html>
