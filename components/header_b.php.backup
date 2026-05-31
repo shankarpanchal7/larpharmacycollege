@@ -30,16 +30,40 @@
                 </p>
             </div>
             <div class="d-flex flex-row justify-content-center">
-                <div class="approvals"><img src="img/approvals/DTE.png" alt="DTE"></div>
-                <div class="approvals"><img src="img/approvals/DBATU.jpg" alt="DBATU"></div>
-                <div class="approvals"><img src="img/approvals/MSBTE.png" alt="MSBTE"></div>
-                <div class="approvals"><img src="img/approvals/PCI.png" alt="PCI"></div>
-                <div class="approvals"><img src="img/approvals/HTE.png" alt="HTE"></div>
+                <div class="approvals"><img src="img/approvel/DTE.png" alt="DTE"></div>
+                <div class="approvals"><img src="img/approvel/DBATU.jpg" alt="DBATU"></div>
+                <div class="approvals"><img src="img/approvel/MSBTE.png" alt="MSBTE"></div>
+                <div class="approvals"><img src="img/approvel/PCI.png" alt="PCI"></div>
             </div>
         </div>
-    
+    <!--       
+        <div class="col-md-2" style="position: relative;
+        display: flex;
+        align-items: flex-end;"> -->
+
+        <!-- <div style="position: absolute;
+        background-color: #fff;
+        display: flex;
+        right: 35px;">
+
+            <div class="approvals"><img src="img/approvel/AICTE.png" alt="AICTE"></div>
+            <div class="approvals"><img src="/img/approvel/my1.png" alt="AICTE"></div>
+            <div class="approvals"><img src="/img/approvel/my2.png" alt="AICTE"></div>
+            <div class="approvals"><img src="/img/approvel/my3.png" alt="AICTE"></div>
+            <div class="approvals"><img src="/img/approvel/my4.png" alt="AICTE"></div>
+            </div> -->
+            <!-- <div style="display: flex;
+            flex-wrap: wrap;">
+                <div class="approvals"><img src="img/approvel/AICTE.png" alt="AICTE"></div>
+                <div class="approvals"><img src="img/approvel/my1.png" alt="AICTE"></div>
+                <div class="approvals"><img src="img/approvel/my2.png" alt="AICTE"></div>
+                <div class="approvals"><img src="img/approvel/my3.png" alt="AICTE"></div>
+                <div class="approvals"><img src="img/approvel/my4.png" alt="AICTE"></div>
+                <div class="approvals"><img src="img/approvel/DTE.png" alt="AICTE"></div>
+            </div> -->
+        <!-- </div> -->
         <div class="col-md-2 d-flex" style="align-self: center;flex-wrap: wrap; justify-content: center;">
-                <img style="border-radius: 10px;object-fit: cover;height: 135px;" src="/img/trust.jpeg" alt="">
+                <img style="border-radius: 10px;object-fit: cover;height: 135px;margin-top: 7px;" src="/img/trust.jpeg" alt="">
         </div>
     </div>
         </div>
@@ -58,9 +82,10 @@
     <ul class="navbar-header topnav">
         <div class="collapse navbar-collapse" id="myNavbar">  
         <li class="topnav-list"><a href="/">Home</a></li>
+        
+        <!-- ABOUT US -->
         <li class="topnav-list">
-            <a class="dropdown-toggle" href="#" id="navbarDropdown5" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                About Us</a>
+            <a class="dropdown-toggle" href="#" id="navbarAboutUs" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
             <ul class="my-sub-menu dropdown-menu mega-dropdown-menu mega_dropdown" id="navbarDropdowndropme">
                 <div class="row">
                     <li class="col-sm-4">
@@ -173,6 +198,48 @@
             </ul>
         </li>
         
+        
+        <!-- <li class="topnav-list">
+            <a class="dropdown-toggle" id="navbarDropdown0" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Facilities</a>
+            <ul class="my-sub-menu dropdown-menu mega-dropdown-menu mega_dropdown" id="navbarDropdowndropme">
+                <div class="row">
+                    <div class="col-md-3">
+                        <ul class="my-sub-menu-nav">
+                        <li><a href="class-room.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Class room</a></li>
+                        <li><a href="/computer-lab.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Computer & Language Laboratory</a></li>
+                        <li><a href="/laboratories.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Laboratories</a></li>
+                        <li><a href="/centeral-instruments.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Central Instrumentation </a></li>
+                        <li><a href="/library.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Library</a></li>
+                        <li><a href="/animal-house.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Animal house</a></li>
+                            
+                            
+                        </ul>
+
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="my-sub-menu-nav">
+                            <li><a href="/museum.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Museum</a></li>
+                            <li><a href="/herbal-garden.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Herbal garden</a></li>
+                            <li><a href="/otherfacility.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Other facilities</a></li>
+                            <li><a href="/cctvfacility.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;CCTV Camera</a></li>
+                            <li><a href="/Rainwaterharvesting.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Rain Water harvesting</a></li>
+                            <li><a href=""><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Disability resource facility</a></li>
+                            <li><a href="/electric-back-up.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;24 Hrs. electric backup</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <ul class="my-sub-menu-nav">
+                        <li><a href="/transportation.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Transportation</a></li>
+                        <li><a href="/canteen.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Canteen</a></li>
+                        <li><a href="/medical-facility.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Medical facility</a></li>
+                        <li><a href="/corporate-store.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Corporate store</a></li>
+                        <li><a href="/Janaaushadhi-store.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Janaaushadhi store</a></li>
+                        <li><a href="/auditorium.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Auditorium</a></li>
+                        </ul>
+                    </div>
+                </div>                    
+            </ul>
+        </li> -->
         
         
         <li class="topnav-list md-dropdown">
@@ -316,6 +383,32 @@
                 </ul>
 
         </li>
+        <!--<li class="topnav-list md-dropdown">-->
+        <!--    <a class="dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Event</a>-->
+
+        <!--    <ul class="my-sub-menu dropdown-menu md-dropdown-menu" id="navbarDropdowndropme">-->
+        <!--    <li><a href="/event.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Event (All Photos)</a></li>-->
+
+        <!--    <li><a href="./college-storage/News and Events update.pdf"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;News</a></li>-->
+        <!--        </ul>-->
+
+        <!--</li>-->
+        
+        
+        <!-- <li class="topnav-list md-dropdown">
+            <a class="dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Events</a>
+            
+
+            <ul class="my-sub-menu dropdown-menu md-dropdown-menu" id="navbarDropdowndropme">
+                <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Recruitment</a></li>
+                <li><a href="/social-schemes.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Social scheme</a></li>
+
+                <li><a href="/student-corner.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Student corner</a></li>
+                <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Gallery</a></li>
+                <li><a href="/downloads.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Download</a></li> 
+            </ul>
+
+        </li> -->
 
         <li class="topnav-list"><a href="contact-us.php">Contact Us</a></li>
         </div>
