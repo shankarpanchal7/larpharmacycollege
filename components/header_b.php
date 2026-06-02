@@ -58,171 +58,73 @@
     <ul class="navbar-header topnav">
         <div class="collapse navbar-collapse" id="myNavbar">  
         <li class="topnav-list"><a href="/">Home</a></li>
+
         <li class="topnav-list">
-            <a class="dropdown-toggle" href="#" id="navbarDropdown5" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                About Us</a>
-            <ul class="my-sub-menu dropdown-menu mega-dropdown-menu mega_dropdown" id="navbarDropdowndropme">
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
+            <ul class="my-sub-menu dropdown-menu mega-dropdown-menu mega_dropdown">
                 <div class="row">
-                    <li class="col-sm-4">
-                            <ul class="my-sub-menu-nav">
-
-                                <li class="dropdown-header header_li_underline mont">Our Inspiration</li>
-                                <!-- <li class="m-t-5"><a href="/founder-president.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Our Inspirations</a></li> -->
-                                <li><a href="/president.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Hon. President  Profile</a></li>
-                                <li><a href="/secretary.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Hon. Secretary’s  Profile </a></li>
-                                <li><a href="/principal.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Principal’s  Profile</a></li>
-                                <li><a href="/about-trust.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Institutes under Shri. Dadapatil Rajale Shikshan Sanstha</a></li>
-                                <li><a href="/governing-body.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Governing Body</a></li>
-
-                            </ul>
-                        </li>
-                        <li class="col-sm-4">
-                            <ul class="my-sub-menu-nav">
-
-                                <li class="dropdown-header header_li_underline mont">About Institute</li>
-                                <!-- <li class="m-t-5"><a href="about-sanstha.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;About Sanstha</a></li> -->
-                                <li class="m-t-5"><a href="about-trust.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;About Trust</a></li>
-                                <li class="m-t-5"><a href="salient-features.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Salient features</a></li>
-                                <li><a href="/program-outcomes.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;RCP Information</a></li>
-                                <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Awards & Recognition</a></li>
-                                <li><a href="corporate-bonding.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Corporate bonding</a></li>
-                                <li><a href="/pharmacist-oath.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Pharmacist Oath</a></li>
-                                <li class="m-t-5"><a href="mission-vision.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Vision, Mission</a></li>
-                                <li><a href="peos-pos.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;PEO’s & PO’s</a></li>
-                                <li><a href="qualitypolicy-corevalues.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Quality policy and core values</a></li>
-                                <li><a href="organisational-structure.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Organizational structure</a></li>
-                                <li><a href="recruitment-policies.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Recruitment policies</a></li>
-                                <li><a href="/video/virtual-tour.mp4" ><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Virtual tour</a></li>
-                            </ul>
-                        </li>
-                        <li class="col-sm-4">
-                            <ul class="my-sub-menu-nav">
-                                <li class="dropdown-header header_li_underline mont">Facilities </li>
-                                <li><a href="/facility.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Facility (All Photos)</a></li>
-                                <li><a href="/video.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Collage Video</a></li>
-
-
-                               
-                            </ul>
-                        </li>
-                   
-                       
-                    </div>
-            </ul>
-        </li>
-        
-        <li class="topnav-list">
-        <a class="dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Academics</a>
-            <ul class="my-sub-menu dropdown-menu mega-dropdown-menu mega_dropdown" id="navbarDropdowndropme">
-
-            <div class="row">
-                <div class="col-md-3">
-                    <ul class="my-sub-menu-nav">
-
-                        <li><a href="/academic-duties.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Academic duties & responses</a></li>
-                        <li><a href="/academic-advisory-committee.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Academic Advisory Committee</a></li>
-
-                        <li><a href="/academic-objectives.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Academic objectives</a></li>
-                        <li><a href="/academic-planning-monitoring.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Academic planning & monitoring</a></li>
-                        <li><a href="/academic-programme-committee.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Academic Programme Committee</a></li>
-                        <li><a href="/institutionalexamination-committee.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Institutional Examination committee</a></li>
-                        <!--<li><a href="/Organogrm.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Organogrm </a></li>-->
-
-                    </ul>
-                </div>
-                <div    class="col-md-3">
-                    <ul class="my-sub-menu-nav">
-                        <li><a href="/department.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Department</a></li>
-
-                        <li><a href="/faculty.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Faculty</a></li>
-                        <li><a href="/college-storage/timetable/DocScanner 24-May-2025 02-49 PM (1).pdf" target="_blank"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Result Analysis B.Pharm</a></li>
-                        <li><a href="/disciplinary-rules.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Disciplines & Rules</a></li>
-                       
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <ul class="my-sub-menu-nav">
-                        <li><a href="/college-storage/D pharm syllabus (1).pdf"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Course Structure and Syllabus-D. Pharm.</a></li>
-                        <li><a href="/college-storage/Syllabus_B_Pharm (1).pdf"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Course Structure and Syllabus-B. Pharm.</a></li>
-                        <li><a href="/academic_policy.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Academic policy</a></li>
-                        
-                    </ul>
-</div>
-                    <div class="col-md-3">
-
-                                            <ul class="my-sub-menu-nav">
-                                                <li class="dropdown-header header_li_underline mont">Academic Calendar </li>
-
-                                                <li><a href="college-storage/timetable/Academic_Calander.2025-26pdf (1).pdf" target="_blank"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;D.Pharmacy Academic calender </a></li>
-                                                <li><a href="B.PharmacyAcademiccalender.php" target="_blank"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;B.Pharmacy Academic calender</a></li>
-                                                <!--<li><a href="" target="_blank"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;D. Pharmacy Academic Calendar</a></li>-->
-                                                <!--<li><a href="" target="_blank"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;B. Pharmacy Academic Calendar</a></li>-->
-
-                                                <li class="dropdown-header header_li_underline mont">Time Table</li>
-                                                <li><a href="D.pharmtimetable.php" target="_blank"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Time Table for D. Pharmacy</a></li>
-                                                <li><a href="B.pharmtimetable.php" target="_blank"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Time Table for B. Pharmacy</a></li>
-                                                
-                                                                                             
-
-                                            </ul>
-                                        </li>
-                                  
-                </div>
-            </div>
-            </ul>
-        </li>
-        
-        
-        
-        <li class="topnav-list md-dropdown">
-            <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Courses</a>
-            <ul class="my-sub-menu dropdown-menu md-dropdown-menu" id="navbarDropdowndropme">
-                <li><a href="/admission-details-dpharm.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;D. Pharm.</a></li>
-                <li><a href="/courses.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;B. Pharm.</a></li>
-                <li><a href="/courses-mpharm.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;M. Pharm.</a></li>
-            </ul>
-        </li>   
-
-        <li class="topnav-list">
-            <a class="dropdown-toggle" href="#" id="navbarDropdown0" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Admission</a>
-            <ul class="my-sub-menu dropdown-menu mega-dropdown-menu mega_dropdown" id="navbarDropdowndropme">
-                <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-sm-4">
                         <ul class="my-sub-menu-nav">
-                            <li><a href="/rules-regulations.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Rules & Regulation</a></li>
+                            <li class="dropdown-header header_li_underline mont">About</li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Institute Profile</a></li>
+                            <li><a href="/mission-vision.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Vision, Mission & PEO</a></li>
+                            <li><a href="/organisational-structure.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Institute Organogram</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Code of Conduct</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Service Rules</a></li>
+                            <li><a href="/about-trust.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;About Institute</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Mandatory Disclosure</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <ul class="my-sub-menu-nav">
+                            <li class="dropdown-header header_li_underline mont">Message from Desk</li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Trustee's Message</a></li>
+                            <li><a href="/president.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;President's Message</a></li>
+                            <li><a href="/principal.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Principal's Message</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <ul class="my-sub-menu-nav">
+                            <li class="dropdown-header header_li_underline mont">Approvals</li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;PCI Approval</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;DTE Approval</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;DBATU Affiliation</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;MSBTE Affiliation</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;NIRF</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;FRA Fees</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;FFC Fees</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;AISHE</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </ul>
+        </li>
+
+        <li class="topnav-list md-dropdown">
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Courses</a>
+            <ul class="my-sub-menu dropdown-menu md-dropdown-menu">
+                <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;D.Pharm.</a></li>
+                <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;B.Pharm.</a></li>
+            </ul>
+        </li>
+
+        <li class="topnav-list">
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Admission</a>
+            <ul class="my-sub-menu dropdown-menu mega-dropdown-menu mega_dropdown">
+                <div class="row">
+                    <div class="col-md-4">
+                        <ul class="my-sub-menu-nav">
+                            <li class="dropdown-header header_li_underline mont">Admission</li>
+                            <li><a href="/rules-regulations.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Rules & Regulations</a></li>
                             <li><a href="/eligibility-criteria.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Eligibility Criteria</a></li>
                             <li><a href="/fees-structure.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Fees Structure</a></li>
-                            <li><a href="/ADMISSION-PROCEDURE.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Admission process</a></li>
-                            
+                            <li><a href="/ADMISSION-PROCEDURE.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Admission Process</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <ul class="my-sub-menu-nav">
-                            <!--<li><a href="/college-storage/Admission Brochure.pdf"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Admission brochure</a></li>-->
-                            <li><a href="/college-storage/Prospect New.pdf"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Admission brochure</a></li>
-                            <li><a href="/rules-for-cancellation.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Rules for cancellation</a></li>
-                            <li><a href="/scolarship.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Scholarship</a></li>
-                            <li><a target="_blank" href="/college-storage/Admission form.pdf"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Admission form</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <ul class="my-sub-menu-nav">
-                            <li class="dropdown-header header_li_underline mont">Student Support</li>
-                            <li><a href="/anti-discrimination-cell.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Anti-Discrimination Commetee</a></li>
-
-<li><a href="/anti-ragging-committee.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Anti-Ragging Cell</a></li>
-
-<li><a href="/gender-sensitization-cell.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Gender Sensitisation Cell</a></li>
-<li><a href="/library-committee.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Library Committee</a></li>
-
-<li><a href="/sc-st.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;SC-ST Committee</a></li>
-
-<li><a href="/placement-career-guidancecell.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Placement and Career Guidance Cell</a></li>
-<li><a href="/women-grievance-redressalcell.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Women Redressal Cell</a></li>
-<li><a href="/green-club-committe.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Green Club Committe</a></li>
-<li><a href="/students-grievance-redressal-cell.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp; Students Grievance Redressal Cell</a></li>
-
+                            <li><a href="/college-storage/Prospect New.pdf"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Admission Brochure</a></li>
+                            <li><a href="/scolarship.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Scholarships</a></li>
                         </ul>
                     </div>
                 </div>
@@ -230,94 +132,139 @@
         </li>
 
         <li class="topnav-list">
-            <a class="dropdown-toggle" href="#" id="navbarDropdown0" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research</a>
-            <ul class="my-sub-menu dropdown-menu mega-dropdown-menu mega_dropdown" id="navbarDropdowndropme">
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Academics</a>
+            <ul class="my-sub-menu dropdown-menu mega-dropdown-menu mega_dropdown">
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <ul class="my-sub-menu-nav">
-                            <li><a href="/composition-objectives-RD.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Composition & Objectives of R & D</a></li>
-                            <li><a href="/facultys.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Faculty</a></li>
-                            <li><a href="/student.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Student</a></li>
-                            <li><a href="/publications.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Publications</a></li>
-                            <!--<li><a href="/consultancy-training.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Consultancy & Training</a></li>-->
-                            <!--<li><a href="/awards-prizes-recognition.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Awards/Prizes/Recognition</a></li>-->
-                            <li><a href="/books-chapters.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Books/Chapter</a></li>
-                            <!--<li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Funded R&D</a></li>-->
+                            <li class="dropdown-header header_li_underline mont">D.Pharm. Syllabus</li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;First Year</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Second Year</a></li>
+
                             
+
+                            <li class="dropdown-header header_li_underline mont mt-3">B.Pharm. Syllabus</li>
+                            <li><a href="D.pharmtimetable.php" target="_blank"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;First Year</a></li>
+                            <li><a href="B.pharmtimetable.php" target="_blank"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Second Year</a></li>
+                            <li><a href="B.pharmtimetable.php" target="_blank"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Third Year</a></li>
+                            <li><a href="B.pharmtimetable.php" target="_blank"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Final Year</a></li>
                             
                         </ul>
-
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <ul class="my-sub-menu-nav">
-                            <!--<li><a href="/guest-lectures.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Guest lectures</a></li>-->
-                            <!--<li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Journal club</a></li>-->
-                            <li><a href="/mou.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;MOU</a></li>
-                            <!--<li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Patent skilled</a></li>-->
-                            <li><a href="/r-and-d-services.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;R & D services</a></li>
-                            <li><a href="research-grants.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Research grants</a></li>
+                            <li class="dropdown-header header_li_underline mont">Academic Calendar (MSBTE)</li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;2025-26</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;2024-25</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;2023-24</a></li>
+
+                            <li class="dropdown-header header_li_underline mont mt-3">Academic Calendar (DBATU)</li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;2025-26</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;2024-25</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;2023-24</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                         <ul class="my-sub-menu-nav">
-                            <li><a href="research-guidance.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Research guidance</a></li>
-                            <!--<li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Hackathon participation</a></li>-->
-                            <li><a href="/seminar-workshops-conference.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Seminar/Workshops/Conference</a></li>
-                            <li><a href="/sophisticated-instruments.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Sophisticated instruments</a></li>
-                            <li><a href="/student-search.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Students research</a></li>
-                            <li><a href="/thrust-areas.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Thrust areas</a></li>
+                            <li class="dropdown-header header_li_underline mont">Academic Timetable (D.Pharm.)</li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;First Year</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Second Year</a></li>
+                           
+                            <li class="dropdown-header header_li_underline mont mt-3">Academic Timetable (B.Pharm.)</li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;First Year</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Second Year</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Third Year</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Final Year</a></li>
+
+                            <li class="dropdown-header header_li_underline mont mt-3">Departments</li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Faculty</a></li>
+                            
                         </ul>
                     </div>
-                </div>                    
+                </div>
             </ul>
         </li>
 
         <li class="topnav-list md-dropdown">
-            <a class="dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Training and Placement Cell</a>
-            <ul class="my-sub-menu dropdown-menu md-dropdown-menu force-large-wd" id="navbarDropdowndropme4">
-                <li><a href="/message.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;message</a></li>
-                <li><a href="/training-career-guidance-cell.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Training & Career guidance cell</a></li>
-                <li><a href="/our-recruties.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp; Our recruties</a></li>
-                <li><a href="/Placement-and-campus-drive.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp; Placement & Campus Interview</a></li>
-                <li><a href="/guest-lecture.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp; Guest Lecture </a></li>
-                <li><a href="/HospitalVisit.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp; Hospital Visit </a></li>
-                <!--<li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Placement & Campus Interview</a></li>-->
-                <li><a href="/entreprenurship-development.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Entrepreneurship development</a></li>
-                <li><a href="/industrial-visits.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Industrial visits & Field Trips</a></li>
-                <li><a href="/mou.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;MOU’s</a></li>
-
-                <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;GPAT Crackers</a></li>
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research</a>
+            <ul class="my-sub-menu dropdown-menu md-dropdown-menu">
+                <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;R & D Cell</a></li>
+                <li><a href="/publications.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Publications</a></li>
+                <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Research Projects</a></li>
+                <li><a href="/mou.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Collaboration & MOUs</a></li>
+                <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Incubation Centre & Start-up</a></li>
             </ul>
         </li>
+
         <li class="topnav-list md-dropdown">
-            <a class="dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Alumni</a>
-
-            <ul class="my-sub-menu dropdown-menu md-dropdown-menu" id="navbarDropdowndropme">
-                <li><a href="alumni-committee.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Committee</a></li>
-                <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Our distinguished Alumni</a></li>
-
-                <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Registration form</a></li>
-                <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Alumni meet</a></li>
-                <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Find Alumni</a></li> 
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Training & Placement (T&P)</a>
+            <ul class="my-sub-menu dropdown-menu md-dropdown-menu">
+                <li><a href="/training-career-guidance-cell.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Training & Placement Cell</a></li>
+                <li><a href="/Placement-and-campus-drive.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Placement</a></li>
+                <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Higher Studies</a></li>
+                <li><a href="/our-recruties.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Our Recruiters</a></li>
+                <li><a href="/industrial-visits.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Industrial / Field Visits</a></li>
             </ul>
-
         </li>
+
+        <li class="topnav-list">
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Students Corner</a>
+            <ul class="my-sub-menu dropdown-menu mega-dropdown-menu mega_dropdown">
+                <div class="row">
+                    <div class="col-md-4">
+                        <ul class="my-sub-menu-nav">
+                            <li class="dropdown-header header_li_underline mont">Student Support</li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Women Grievance Committee</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Student Grievance Redressal Committee</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Internal Complaint Committee</a></li>
+                            <li><a href="/anti-ragging-committee.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Anti-Ragging Cell</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Sexual Harassment Committee</a></li>
+                            <li><a href="/anti-discrimination-cell.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Anti-Discrimination Committee</a></li>
+                            <li><a href="/sc-st.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;SC-ST Committee</a></li>
+                            <li><a href="/green-club-committe.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Green Club Committee</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Red Ribbon Club</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="my-sub-menu-nav">
+                            <li class="dropdown-header header_li_underline mont">Alumni</li>
+                            <li><a href="/alumni-committee.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Alumni Association</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Our Distinguished Alumni</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Registration Form</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Alumni Meet</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Find Alumni</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="my-sub-menu-nav">
+                            <li class="dropdown-header header_li_underline mont">Student Facilities</li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Sports Facility</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Hostel Facility</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Gymnasium Facility</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Facility for Differently-Abled</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </ul>
+        </li>
+
+        <li class="topnav-list"><a href="/iqac.php">IQAC</a></li>
+
         <li class="topnav-list md-dropdown">
-            <a class="dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Medio Corner</a>
-
-            <ul class="my-sub-menu dropdown-menu md-dropdown-menu" id="navbarDropdowndropme">
-            <li><a href="Co_ciericules_Activities.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Co-Curricular Activities</a></li>
-            <li><a href="cultural_events.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Cultural Events</a></li>
-            <li><a href="out_reach.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Out Reach  Events</a></li>
-            <li><a href="photo_gallery.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Photo Gallery</a></li>
-            <li><a href="news_gallery.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;News Gallery</a></li>
-
-            <!--<li><a href="./college-storage/News and Events update.pdf"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;News</a></li>-->
-                </ul>
-
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gallery</a>
+            <ul class="my-sub-menu dropdown-menu md-dropdown-menu">
+                <li class="dropdown-header header_li_underline mont">Gallery</li>
+                <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Newsletter</a></li>
+                <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;NSS</a></li>
+                <li class="dropdown-header header_li_underline mont mt-2">Events (Gallery)</li>
+                <li><a href="Co_ciericules_Activities.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Co-Curricular Activities</a></li>
+                <li><a href="cultural_events.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Cultural Events</a></li>
+                <li><a href="out_reach.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Outreach Events</a></li>
+                <li><a href="news_gallery.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;News Gallery</a></li>
+            </ul>
         </li>
 
-        <li class="topnav-list"><a href="contact-us.php">Contact Us</a></li>
+        <li class="topnav-list"><a href="contact-us.php">Contact</a></li>
         </div>
     </ul>
     </nav>
