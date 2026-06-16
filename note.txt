@@ -5,3 +5,35 @@ https://www.amrutpharm.co.in/index.php
 
 org website
 https://dprss.in/
+
+
+
+
+
+
+
+
+--------------- Pages ----------------
+About us Section
+Message from the Desk section
+Approvals Tab from About Us Section
+
+Home page design - inprogress
+Contact us page - done 
+Service rule - done
+Institute profile - done
+Principle message - done
+President message - done
+Secretary message - done
+Governing body - pending
+Research & Development Cell - done
+T&P -> Higher Studies - done
+Academics -> Departments - done
+Academics -> Academic Timetable -> First Year Diploma - done
+Academics -> Academic Timetable -> Second Year Diploma - done
+Academics -> Academic Timetable -> First Year Degree - done
+Academics -> Academic Timetable -> First Year Degree - done
+Academics -> Academic Timetable -> Second Year Degree - done
+Academics -> Academic Timetable -> Second Year Degree - done
+Academics -> Academic Timetable -> Third Year Degree - done
+Academics -> Academic Timetable -> Third Year Degree - done

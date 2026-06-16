@@ -66,11 +66,11 @@
                     <div class="col-sm-4">
                         <ul class="my-sub-menu-nav">
                             <li class="dropdown-header header_li_underline mont">About</li>
-                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Institute Profile</a></li>
+                            <li><a href="/institute-profile.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Institute Profile</a></li>
                             <li><a href="/mission-vision.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Vision, Mission & PEO</a></li>
                             <li><a href="/organisational-structure.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Institute Organogram</a></li>
                             <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Code of Conduct</a></li>
-                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Service Rules</a></li>
+                            <li><a target="_blank" href="/college-storage/service-rules.pdf"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Service Rules</a></li>
                             <li><a href="/about-trust.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;About Institute</a></li>
                             <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Mandatory Disclosure</a></li>
                         </ul>
@@ -78,8 +78,9 @@
                     <div class="col-sm-4">
                         <ul class="my-sub-menu-nav">
                             <li class="dropdown-header header_li_underline mont">Message from Desk</li>
-                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Trustee's Message</a></li>
+                            <li><a href="/trustees-message.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Trustee's Message</a></li>
                             <li><a href="/president.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;President's Message</a></li>
+                            <li><a href="/secretary-message.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Secretary's Message</a></li>
                             <li><a href="/principal.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Principal's Message</a></li>
                         </ul>
                     </div>
@@ -167,17 +168,18 @@
                     <div class="col-md-4">
                         <ul class="my-sub-menu-nav">
                             <li class="dropdown-header header_li_underline mont">Academic Timetable (D.Pharm.)</li>
-                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;First Year</a></li>
-                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Second Year</a></li>
-                           
+                            <li><a href="academic-timetable.php?id=dpharm-1"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;First Year</a></li>
+                            <li><a href="academic-timetable.php?id=dpharm-2"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Second Year</a></li>
+
                             <li class="dropdown-header header_li_underline mont mt-3">Academic Timetable (B.Pharm.)</li>
-                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;First Year</a></li>
-                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Second Year</a></li>
-                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Third Year</a></li>
-                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Final Year</a></li>
+                            <li><a href="academic-timetable.php?id=bpharm-1"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;First Year</a></li>
+                            <li><a href="academic-timetable.php?id=bpharm-2"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Second Year</a></li>
+                            <li><a href="academic-timetable.php?id=bpharm-3"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Third Year</a></li>
+                            <!-- <li><a target="_blank" href="academic-timetable.php?id=bpharm-4"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Final Year</a></li> -->
 
                             <li class="dropdown-header header_li_underline mont mt-3">Departments</li>
-                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Faculty</a></li>
+                            <li><a href="/faculty.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Faculty</a></li>
+                            <li><a href="/departments.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Departments</a></li>
                             
                         </ul>
                     </div>
@@ -188,7 +190,7 @@
         <li class="topnav-list md-dropdown">
             <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research</a>
             <ul class="my-sub-menu dropdown-menu md-dropdown-menu">
-                <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;R & D Cell</a></li>
+                <li><a href="/research-and-development-cell.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;R & D Cell</a></li>
                 <li><a href="/publications.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Publications</a></li>
                 <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Research Projects</a></li>
                 <li><a href="/mou.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Collaboration & MOUs</a></li>
@@ -201,7 +203,7 @@
             <ul class="my-sub-menu dropdown-menu md-dropdown-menu">
                 <li><a href="/training-career-guidance-cell.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Training & Placement Cell</a></li>
                 <li><a href="/Placement-and-campus-drive.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Placement</a></li>
-                <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Higher Studies</a></li>
+                <li><a href="/higher-studies.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Higher Studies</a></li>
                 <li><a href="/our-recruties.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Our Recruiters</a></li>
                 <li><a href="/industrial-visits.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Industrial / Field Visits</a></li>
             </ul>
