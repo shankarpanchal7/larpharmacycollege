@@ -3,15 +3,15 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## - 2026-06-07
+## - 2026-06-07 - 1.0.0
 ### Added
 - initial setup and ready structure added
 
-## - 2026-06-07
+## - 2026-06-07 - 1.0.2
 ### Added
 - initial setup and ready structure added
 
-## - 2026-06-16
+## - 2026-06-16 - 1.0.3
 ### Added
 - Contact us page 
 - Service rule
