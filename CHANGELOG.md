@@ -31,3 +31,9 @@ All notable changes to this project will be documented in this file.
 - Academics -> Academic Timetable -> Third Year Degree
 - Academics -> Academic Timetable -> Third Year Degree
 
+## - 2026-06-23 - 1.0.4
+### Added
+
+- Added Academics Syllabus 
+- Added Academics Calendar
+- Added Academics Departments 

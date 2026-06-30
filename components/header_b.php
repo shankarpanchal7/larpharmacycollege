@@ -139,30 +139,28 @@
                     <div class="col-md-4">
                         <ul class="my-sub-menu-nav">
                             <li class="dropdown-header header_li_underline mont">D.Pharm. Syllabus</li>
-                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;First Year</a></li>
-                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Second Year</a></li>
-
-                            
+                            <li><a target="_blank" href="/college-storage/syllabus/14-55_ER_20-_syllabus_23092021-17-39 (1).pdf"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;First Year</a></li>
+                            <li><a target="_blank" href="/college-storage/syllabus/14-55_ER_20-_syllabus_23092021-41-68.pdf"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Second Year</a></li>
 
                             <li class="dropdown-header header_li_underline mont mt-3">B.Pharm. Syllabus</li>
-                            <li><a href="D.pharmtimetable.php" target="_blank"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;First Year</a></li>
-                            <li><a href="B.pharmtimetable.php" target="_blank"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Second Year</a></li>
-                            <li><a href="B.pharmtimetable.php" target="_blank"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Third Year</a></li>
-                            <li><a href="B.pharmtimetable.php" target="_blank"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Final Year</a></li>
+                            <li><a target="_blank" href="/college-storage/syllabus/Syllabus_B_Pharm-28-72.pdf"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;First Year</a></li>
+                            <li><a target="_blank" href="/college-storage/syllabus/Syllabus_B_Pharm (1)-73-106 (1).pdf"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Second Year</a></li>
+                            <li><a target="_blank" href="/college-storage/syllabus/Syllabus_B_Pharm (1)-107-145.pdf"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Third Year</a></li>
+                            <li><a target="_blank" href="/college-storage/syllabus/Syllabus_B_Pharm (1)-146-189.pdf"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Final Year</a></li>
                             
                         </ul>
                     </div>
                     <div class="col-md-4">
                         <ul class="my-sub-menu-nav">
                             <li class="dropdown-header header_li_underline mont">Academic Calendar (MSBTE)</li>
-                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;2025-26</a></li>
-                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;2024-25</a></li>
-                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;2023-24</a></li>
+                            <li><a href="/academic-calendar.php?id=msbte-2025-2026"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;2025-26</a></li>
+                            <li><a href="/academic-calendar.php?id=msbte-2024-2025"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;2024-25</a></li>
+                            <li><a href="/academic-calendar.php?id=msbte-2023-2024"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;2023-24</a></li>
 
                             <li class="dropdown-header header_li_underline mont mt-3">Academic Calendar (DBATU)</li>
-                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;2025-26</a></li>
-                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;2024-25</a></li>
-                            <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;2023-24</a></li>
+                            <li><a href="/academic-calendar.php?id=dbatu-2025-2026"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;2025-26</a></li>
+                            <li><a href="/academic-calendar.php?id=dbatu-2024-2025"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;2024-25</a></li>
+                            <li><a href="/academic-calendar.php?id=dbatu-2023-2024"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;2023-24</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4">

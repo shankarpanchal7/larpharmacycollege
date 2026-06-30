@@ -1,6 +1,7 @@
 <?php
     include_once("components/header_t.php");
         echo '<title>Departments</title>';
+        echo '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />';
     include_once("components/header_b.php"); ?>
 
 <style>
@@ -49,7 +50,7 @@
         <div style="margin-top: 15px">
             <!-- <p class="text-bold">Vision:</p> -->
             <p id="dpt-description"></p>
-            <div id="image-div">
+            <div id="image-div" class="row">
 
             </div>
         </div>
@@ -73,8 +74,12 @@
 Modern production techniques, and state-of-the-art machinery. These developments ensure the manufacturing of high-quality pharmaceutical products with improved efficacy and safety.</p>`,
             departments: [
                 {
-                    title: "",
-                    fileName: ""
+                    title: "Pharmaceutics Department",
+                    fileName: "Pharmaceutics Department.jpeg"
+                },
+                {
+                    title: "Pharmaceutics Department",
+                    fileName: "Pharmaceutics Department 2.jpeg"
                 },
 
             ]
@@ -91,8 +96,8 @@ Modern production techniques, and state-of-the-art machinery. These developments
 <p>The postgraduate chemistry department is equipped with two well-established laboratories for synthetic and analytical work, featuring sophisticated instruments and software to support advanced research activities.</p>`,
             departments: [
                 {
-                    title: "",
-                    fileName: ""
+                    title: "Pharmaceutical Chemistry Department",
+                    fileName: "Pharmaceutical Chemistry Department.webp"
                 }
             ]
         }
@@ -115,41 +120,13 @@ Modern production techniques, and state-of-the-art machinery. These developments
                 `,
             departments: [
                 {
-                    title: "Bulk Density Apparatus",
-                    fileName: "pharmaceutics1.png"
+                    title: "Pharmaceutics Department",
+                    fileName: "Pharmaceutics Department.jpeg"
                 },
                 {
-                    title: "Digital Melting & Boiling Point apparatus",
-                    fileName: "pharmaceutics2.png"
+                    title: "Pharmaceutics Department",
+                    fileName: "Pharmaceutics Department 2.jpeg"
                 },
-                {
-                    title: "Dissolution Apparatus",
-                    fileName: "pharmaceutics3.png"
-                },
-                {
-                    title: "Hot Air Oven",
-                    fileName: "pharmaceutics4.png"
-                },
-                {
-                    title: "Incubator",
-                    fileName: "pharmaceutics5.png"
-                },
-                {
-                    title: "Magnetic stirrer",
-                    fileName: "pharmaceutics6.png"
-                },
-                {
-                    title: "Overhead stirrer",
-                    fileName: "pharmaceutics7.png"
-                },
-                {
-                    title: "Sieve shaker",
-                    fileName: "pharmaceutics8.png"
-                },
-                {
-                    title: "Single Punch tablet Press",
-                    fileName: "pharmaceutics9.png"
-                }
             ]
         }
 
@@ -168,7 +145,7 @@ Modern production techniques, and state-of-the-art machinery. These developments
                 {
                     title: "",
                     fileName: ""
-                }
+                },
             ]
         }
 
@@ -184,10 +161,14 @@ The main aims of research in the department of pharmacology are to find out a th
 </ul>
 `,
             departments: [
-                {
+               {
                     title: "",
-                    fileName: "pharmacology.png"
+                    fileName: "Pharmacology Department 2.jpeg"
                 },
+                 {
+                    title: "",
+                    fileName: "Pharmacology Department.jpeg"
+                }
             ]
         }
 
@@ -247,23 +228,36 @@ The main aims of research in the department of pharmacology are to find out a th
             $("#dpt-title").html(departmentObj.title)
             $("#dpt-description").html(departmentObj.description)
 
+            var hasImages = false;
 
             if (departmentObj.departments == 0) renderHtmlStr = "<p></p>"
 
             var tempArr = departmentObj.departments
             for (let dIdx = 0; dIdx < tempArr.length; dIdx++) {
                 const aDpt = tempArr[dIdx];
-                var url = baseUrl + aDpt.fileName
-                renderHtmlStr += `
-                    <div class="equipments-img">
-                        <img src="${url}" alt="${aDpt.fileName}">
-                        <p class="text-bold">${aDpt.title}</p>
-                    </div>
-                `
-
+                
+                // Only render if fileName exists
+                if (aDpt.fileName) {
+                    hasImages = true;
+                    var url = baseUrl + aDpt.fileName
+                    renderHtmlStr += `
+                        <div class="equipments-img col-md-4 col-sm-6 col-xs-12">
+                            <a href="${url}" data-fancybox="gallery" data-caption="${aDpt.title}">
+                                <img width="100%" src="${url}" alt="${aDpt.fileName}">
+                            </a>
+                            <p class="text-bold">${aDpt.title}</p>
+                        </div>
+                    `
+                }
             }
 
             $("#image-div").html(renderHtmlStr)
+            
+            // Reinitialize Fancybox only if there are images
+            if (hasImages && typeof Fancybox !== 'undefined') {
+                Fancybox.destroy();
+                Fancybox.bind("[data-fancybox='gallery']", {});
+            }
         }
 
         $(".dept-btn").click(function () {
@@ -277,4 +271,20 @@ The main aims of research in the department of pharmacology are to find out a th
 
 
     })
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<script>
+    $(document).ready(function() {
+        // Initialize Fancybox on page load
+        if (typeof Fancybox !== 'undefined') {
+            Fancybox.bind("[data-fancybox='gallery']", {
+                on: {
+                    done: (fancybox) => {
+                        console.log('Image view closed');
+                    }
+                }
+            });
+        }
+    });
 </script>

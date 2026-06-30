@@ -158,7 +158,7 @@ include_once("components/header_b.php");
         </div>
     <?php else: ?>
         <div class="alert alert-warning text-center">
-            No timetable found. Use a valid query string like <code>?id=dpharm-1</code> or <code>?id=bpharm-2</code>.
+            No timetable found.
         </div>
     <?php endif; ?>
 </div>
