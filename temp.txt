@@ -1,0 +1,40 @@
+    <div class="stats">
+<div class="stats-grid">
+      <div data-motion="fade-up" data-motion-in="true" class="motion_reveal__KX9E3 motion_fadeUp__XYFyD stat-cell"
+        style="--m-i:0;--m-distance:14px">
+        <div class="num">03</div>
+        <div class="lbl">Years of Excellence</div>
+      </div>
+      <div data-motion="fade-up" data-motion-in="true" class="motion_reveal__KX9E3 motion_fadeUp__XYFyD stat-cell"
+        style="--m-i:0;--m-distance:14px">
+        <div class="num">02</div>
+        <div class="lbl">Academic Programs Offered</div>
+      </div>
+      <div data-motion="fade-up" data-motion-in="true" class="motion_reveal__KX9E3 motion_fadeUp__XYFyD stat-cell"
+        style="--m-i:1;--m-distance:14px">
+        <div class="num">250+</div>
+        <div class="lbl">Enrolled students in LARCOP</div>
+      </div>
+      <div data-motion="fade-up" data-motion-in="true" class="motion_reveal__KX9E3 motion_fadeUp__XYFyD stat-cell"
+        style="--m-i:2;--m-distance:14px">
+        <div class="num">94</div>
+        <div class="lbl">Expert faculty members</div>
+      </div>
+      <div data-motion="fade-up" data-motion-in="true" class="motion_reveal__KX9E3 motion_fadeUp__XYFyD stat-cell"
+        style="--m-i:3;--m-distance:14px">
+        <div class="num">50+</div>
+        <div class="lbl">Research publications</div>
+      </div>
+      <div data-motion="fade-up" data-motion-in="true" class="motion_reveal__KX9E3 motion_fadeUp__XYFyD stat-cell"
+        style="--m-i:4;--m-distance:14px">
+        <div class="num">62+</div>
+        <div class="lbl">Placement Offered in 2026 </div>
+      </div>
+      <div data-motion="fade-up" data-motion-in="true" class="motion_reveal__KX9E3 motion_fadeUp__XYFyD stat-cell"
+        style="--m-i:4;--m-distance:14px">
+        <div class="num">04+</div>
+        <div class="lbl">Industry & Hospital Tie-ups</div>
+      </div>
+    </div>
+    </div>
+

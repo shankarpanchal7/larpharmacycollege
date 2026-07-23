@@ -29,12 +29,13 @@
               </div>
               <div class="col-lg-3 col-md-3 col-sm-12 co-xs-12">
                   <h4>Social links</h4>
-                 <div class="social-links">
-                  <a target="_blank" class="icon ion-logo-facebook social-icon" href="https://www.facebook.com/p/Loknete-Appasaheb-Rajale-College-of-Pharmacy-61571782545648/"></a>
-                  <a target="_blank" class="icon ion-logo-twitter social-icon" href="https://pharmacy.dprss.in"></a>
-                  <a target="_blank" class="icon ion-logo-youtube social-icon" href="https://pharmacy.dprss.in"></a>
-                  <a target="_blank" class="icon ion-logo-instagram social-icon" href="https://www.instagram.com/larcop_adinathnagar"></a>
-                  </div>
+<div class="social-links">
+            <a target="_blank" class="icon ion-logo-linkedin social-icon" href="https://in.linkedin.com/in/loknete-appasaheb-rajale-college-of-pharmacy-47656b408"></a>
+            <a target="_blank" class="icon ion-logo-facebook social-icon"
+              href="https://www.facebook.com/p/Loknete-Appasaheb-Rajale-College-of-Pharmacy-61571782545648/"></a>
+            <a target="_blank" class="icon ion-logo-instagram social-icon"
+              href="https://www.instagram.com/larcop_adinathnagar"></a>
+          </div>
 
                   
               </div>
@@ -64,43 +65,72 @@
 <script src="/vendors/bootstrap/js/bootstrap.min.js"></script>
 <script src="/vendors/js/newsTicker.js"></script>
 <script src="/vendors/js/jquery.zoom.min.js"></script>
+<script src="https://unpkg.com/lenis@1.3.11/dist/lenis.min.js"></script>
 <!-- <script src="/resources/js/main.js"></script> -->
 <script src="/resources/js/O_main.js"></script>
 
 <script>
   $(document).ready(function(){
-      //    $('.fac-img-container').zoom();
-      // $('.fac-img-container').zoom({ on:'grab' });
+          const lenis = new Lenis({
+                  duration: 0.9,
+                  smoothWheel: true,
+                  wheelMultiplier: 1,
+                  touchMultiplier: 2,
+                });
 
-      // $('.newsticker').newsTicker({
-      //     row_height: 48,
-      //     max_rows: 6,
-      //     speed: 600,
-      //     direction: 'up',
-      //     duration: 4000,
-      //     autostart: 1,
-      //     pauseOnHover: 0
-      // });
+            function raf(time) {
+              lenis.raf(time);
+              requestAnimationFrame(raf);
+            }
 
-      // $('.newsticker-new').newsTicker({
-      //     row_height: 48,
-      //     max_rows: 6,
-      //     speed: 600,
-      //     direction: 'up',
-      //     duration: 3992,
-      //     autostart: 1,
-      //     pauseOnHover: 0
-      // });
+            requestAnimationFrame(raf);
 
-      // $('.newsticker-event').newsTicker({
-      //     row_height: 48,
-      //     max_rows: 6,
-      //     speed: 600,
-      //     direction: 'up',
-      //     duration: 3995,
-      //     autostart: 1,
-      //     pauseOnHover: 0
-      // });
+      $('.stat-cell').addClass('is-visible');
+
+      $('.stat-cell .num').each(function () {
+        var $this = $(this);
+        var rawText = $this.text();
+
+        var targetNum = parseInt(rawText.replace(/[^0-9]/g, ''), 10);
+        var suffix = rawText.replace(/[0-9]/g, '');
+        var originalLength = rawText.replace(/[^0-9]/g, '').length;
+
+        function easeOutExpo(t, b, c, d) {
+          return (t === d) ? b + c : c * (-Math.pow(2, -10 * t / d) + 1) + b;
+        }
+
+        var duration = 5000; // Animation time in milliseconds
+        var startTime = null;
+
+        function animateCount(timestamp) {
+          if (!startTime) startTime = timestamp;
+          var progress = timestamp - startTime;
+
+          if (progress > duration) progress = duration;
+
+          var currentVal = easeOutExpo(progress, 0, targetNum, duration);
+          var currentNumStr = Math.floor(currentVal).toString();
+
+          while (currentNumStr.length < originalLength) {
+            currentNumStr = '0' + currentNumStr;
+          }
+
+          $this.text(currentNumStr + suffix);
+
+          if (progress < duration) {
+            requestAnimationFrame(animateCount);
+          } else {
+            var finalNumStr = targetNum.toString();
+            while (finalNumStr.length < originalLength) {
+              finalNumStr = '0' + finalNumStr;
+            }
+            $this.text(finalNumStr + suffix);
+          }
+        }
+
+        // Initialize animation smoothly via browser paint cycles
+        requestAnimationFrame(animateCount);
+      });
 
   });
 </script>

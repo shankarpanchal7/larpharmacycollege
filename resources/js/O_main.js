@@ -114,7 +114,7 @@ $(document).ready(function(){
     });
 
   $('.newsticker').newsTicker({
-    row_height: 150,
+    row_height: 206,
     max_rows: 2,
     speed: 600,
     direction: 'up',

@@ -50,16 +50,28 @@
   <link rel="stylesheet" href="resources/css/queries.css">
   <title>Loknete Appasaheb Rajale College of Pharmacy</title>
 </head>
+<style>
+  .stat-cell {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1),
+      transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .stat-cell.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+</style>
 
 <body>
-  <header style="position: relative;">
+  <header>
     <div class="header-top-section">
       <div class="header-top-inner">
         <ul class="list-inline list-inline-lg offset-top-0 social-top" style="justify-content: flex-end;">
           <li><a target="_blank" class="icon ion-logo-facebook social-facebook"
               href="https://www.facebook.com/p/Loknete-Appasaheb-Rajale-College-of-Pharmacy-61571782545648/"></a></li>
-          <li><a target="_blank" class="icon ion-logo-twitter social-twitter" href="https://pharmacy.dprss.in"></a></li>
-          <li><a target="_blank" class="icon ion-logo-youtube social-youtube" href="https://pharmacy.dprss.in"></a></li>
+          <li><a target="_blank" class="icon ion-logo-linkedin social-twitter" href="https://in.linkedin.com/in/loknete-appasaheb-rajale-college-of-pharmacy-47656b408"></a></li>
           <li><a target="_blank" class="icon ion-logo-instagram social-instagram"
               href="https://www.instagram.com/larcop_adinathnagar"></a></li>
         </ul>
@@ -70,10 +82,10 @@
         <div class="row">
           <div class="col-md-2">
             <div class="logo-top-left">
-              <a href="/"><img class="logo-top" alt="logo" src="/img/logo_tr.png"></a>
+              <a href="/"><img class="logo-top" alt="logo" src="/img/logo_tr_no_bg.png"></a>
             </div>
           </div>
-          <div class="col-md-8">
+          <div class="col-md-8 header-mid-box">
             <div class="title title-2">
               <h2 class="color-white">Shri. Dadapatil Rajale Shikshan Sanstha's</h2>
             </div>
@@ -442,9 +454,9 @@
     .marquee span {
       float: left;
       width: 50%;
-      font-weight: 700;
-      color: #e90c15;
-      font-style: oblique;
+      font-weight: 400;
+      color: #fff;
+      font-style: italic;
     }
 
     .carousel-item {
@@ -486,110 +498,95 @@
     }
   </style>
 
-  <section class="section-carousel">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
-      </ol>
-
-      <div class="carousel-inner">
-
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="/img/slides/slide1.jpg" alt="Loknete Appasaheb Rajale College of Pharmacy">
+  <main>
+    <div class="banner-section">
+      <div class="banner_wrapper">
+        <div class="banner-bg">
+          <div class="banner_img hide">
+            <img src="https://www.dypiu.ac.in/assets/images/home/banner.webp" alt="Banner Image" width="1920"
+              height="1300" class="img-fluid d-none d-sm-block" fetchpriority="high">
+            <img src="https://www.dypiu.ac.in/assets/images/home/banner_mobile.webp" alt="Banner Image"
+              class="img-fluid d-block d-sm-none" fetchpriority="high">
+          </div>
+          <div class="overlay_banner_video show">
+            <video width="100%" height="100%" src="/video/videoplayback.webm" muted="" autoplay="" loop=""
+              preload="none"></video>
+          </div>
         </div>
-
-        <div class="carousel-item">
-          <img class="d-block w-100" src="/img/slides/slide2.jpg" alt="Loknete Appasaheb Rajale College of Pharmacy">
-        </div>
-
-        <div class="carousel-item">
-          <img class="d-block w-100" src="/img/slides/slide3.jpg" alt="Loknete Appasaheb Rajale College of Pharmacy">
-        </div>
-
-        <div class="carousel-item">
-          <img class="d-block w-100" src="/img/slides/slide4.jpg" alt="Loknete Appasaheb Rajale College of Pharmacy">
-        </div>
-
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-
-      </div>
-    </div>
-  </section>
-
-  <section class="about1">
-    <img class="about-sec-logo-top" alt="logo" src="/img/logo_tr.png">
-    <div class="td_height_120 td_height_lg_80"></div>
-    <div class="institute-profile-section td_style_1">
-      <div class="container">
-        <div class="row align-items-center td_gap_y_40">
-          <div class="col-lg-6 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.25s"
-            style="visibility: visible; animation-duration: 1s; animation-delay: 0.25s; animation-name: fadeInLeft;">
-            <div class="institute-profile_thumb_wrap">
-              <div class="institute-profile_year text-uppercase td_fs_64 td_bold">EST 2003</div>
-              <div class="institute-profile_thumb_1">
-                <picture>
-                  <source srcset="/img/college-building2-removebg.png" type="image/webp">
-                  <source srcset="/img/college-building2-removebg.png?v=12345" type="image/jpeg">
-                  <img src="/img/college-building2-removebg.png" alt="oncoedge-2025" class="img-fluid"
-                    style="width: 100%;" loading="eager" fetchpriority="high" decoding="async">
-                </picture>
-
-              </div>
-              <div class="institute-profile_thumb_2">
-                <picture>
-                  <source srcset="/img/student2.jpg" type="image/webp">
-                  <source srcset="/img/about-img.jpg?v=12345" type="image/jpeg">
-                  <img src="/img/about-img.jpg" alt="About Image" class="img-fluid" style="width: 100%;" loading="eager"
-                    fetchpriority="high" decoding="async">
-                </picture>
-              </div>
-              <!-- <a href="#vid" class="td_circle_text td_center td_video_open" aria-describedby="popup-1">
-                <img src="/img/rotate-img2-removebg-preview.png" alt="Circle text" class="img-fluid" loading="lazy"></a>  -->
-              <!-- <div class="td_circle_shape"></div> -->
-              <div class="institute-profile_thumb_3">
-                <p>Loknete Appasaheb Rajale College of Pharmacy.</p>
-                <span>Adinathnagar, Tq. Pathardi, Dist. Ahilyanagar</span>
+        <div class="banner_text">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="banner-content">
+                  <!-- <h2 class="banner_description"></h2> -->
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s"
-            style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
-            <div class="td_section_heading td_style_1 td_mb_30 institute-profile_wlc">
-              <div class="section-title1">
-                <h3>Institute Profile</h3>
-                <h2 class="wow zoomIn" style="visibility: visible; animation-name: zoomIn;">Loknete Appasaheb Rajale College of Pharmacy</h2>
-              </div>
-              <p style="margin-bottom: 0;text-align: justify; text-justify: inter-word;">
-                Dadapatil Rajale Shikshan Sanstha, established in 1991 by Late Dadapatil Rajale Saheb, aims to provide
-                quality education to rural and economically weaker communities. Inspired by the vision of Late Rajivji
-                Rajale, Loknete Appasaheb Rajale College of Pharmacy was established in 2023-24 under the leadership of
-                Hon. Appasaheb Rajale, Hon. Monikatai Rajale, and Hon. Rahuldada Rajale. Located at Adinathnagar, Tal.
-                Pathardi, Dist. Ahilyanagar, the institute offers D.Pharm and B.Pharm programs with 60 seats each. The
-                college focuses on academic excellence, ethical values, practical skills, women’s empowerment, and rural
-                development while preparing competent pharmacy professionals to serve society and the healthcare sector
-                effectively.
-              </p>
+        </div>
+      </div>
+    </div>
+    <section class="about1">
+      <img class="about-sec-logo-top" alt="logo" src="/img/logo_tr.png">
+      <div class="td_height_120 td_height_lg_80"></div>
+      <div class="institute-profile-section td_style_1">
+        <div class="container">
+          <div class="row align-items-center td_gap_y_40">
+            <div class="col-lg-6 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.25s"
+              style="visibility: visible; animation-duration: 1s; animation-delay: 0.25s; animation-name: fadeInLeft;">
+              <div class="institute-profile_thumb_wrap">
+                <div class="institute-profile_year text-uppercase td_fs_64 td_bold">EST 2023</div>
+                <div class="institute-profile_thumb_1">
+                  <picture>
+                    <source srcset="/img/college-building2-removebg.png" type="image/webp">
+                    <source srcset="/img/college-building2-removebg.png?v=12345" type="image/jpeg">
+                    <img src="/img/college-building2-removebg.png" alt="oncoedge-2025" class="img-fluid"
+                      style="width: 100%;" loading="eager" fetchpriority="high" decoding="async">
+                  </picture>
 
+                </div>
+                <div class="institute-profile_thumb_2">
+                  <picture>
+                    <source srcset="/img/student2.jpg" type="image/webp">
+                    <source srcset="/img/about-img.jpg?v=12345" type="image/jpeg">
+                    <img src="/img/about-img.jpg" alt="About Image" class="img-fluid" style="width: 100%;"
+                      loading="eager" fetchpriority="high" decoding="async">
+                  </picture>
+                </div>
+                <!-- <a href="#vid" class="td_circle_text td_center td_video_open" aria-describedby="popup-1">
+                <img src="/img/rotate-img2-removebg-preview.png" alt="Circle text" class="img-fluid" loading="lazy"></a>  -->
+                <!-- <div class="td_circle_shape"></div> -->
+                <div class="institute-profile_thumb_3">
+                  <p>Loknete Appasaheb Rajale College of Pharmacy.</p>
+                  <span>Adinathnagar, Tq. Pathardi, Dist. Ahilyanagar</span>
+                </div>
+              </div>
             </div>
-            <div class="mt-3">
-              <!-- <p>The institute is approved by</p>
+            <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s"
+              style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
+              <div class="td_section_heading td_style_1 td_mb_30 institute-profile_wlc">
+                <div class="section-title1">
+                  <h3>Institute Profile</h3>
+                  <h2 class="wow zoomIn" style="visibility: visible; animation-name: zoomIn;">Loknete Appasaheb Rajale
+                    College of Pharmacy</h2>
+                </div>
+                <p style="margin-bottom: 0;text-align: justify; text-justify: inter-word;">
+                  Dadapatil Rajale Shikshan Sanstha, established in 1991 by Late Dadapatil Rajale Saheb, aims to provide
+                  quality education to rural and economically weaker communities. Inspired by the vision of Late Rajivji
+                  Rajale, Loknete Appasaheb Rajale College of Pharmacy was established in 2023-24 under the leadership
+                  of
+                  Hon. Appasaheb Rajale, Hon. Monikatai Rajale, and Hon. Rahuldada Rajale. Located at Adinathnagar, Tal.
+                  Pathardi, Dist. Ahilyanagar, the institute offers D.Pharm and B.Pharm programs with 60 seats each. The
+                  college focuses on academic excellence, ethical values, practical skills, women’s empowerment, and
+                  rural
+                  development while preparing competent pharmacy professionals to serve society and the healthcare
+                  sector
+                  effectively.
+                </p>
+
+              </div>
+              <div class="mt-3">
+                <!-- <p>The institute is approved by</p>
               <div class="abt-approval-sec">
                 <img src="/img/approvals/Govt. of Maharashtra.jpg" class="img-fluid img-logo" width="60px" alt="Govt. of Maharashtra" loading="lazy"/>
                 <img src="/img/approvals/AICTE.png" class="img-fluid img-logo" width="60px" alt="AICTE" loading="lazy"/>
@@ -600,98 +597,352 @@
                 <img src="/img/approvals/HTE.png" class="img-fluid img-logo" width="60px" alt="HTE" loading="lazy"/>
                 <img src="/img/approvals/SUK.jpeg" class="img-fluid img-logo" width="60px" alt="SUK" loading="lazy"/>
               </div> -->
-            </div>
-            <div class="col-lg-12 mt-4">
+              </div>
+              <div class="col-lg-12 mt-4">
 
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
 
-   
-  </section>
-<section style="background-color: #cccccc24;">
-   <div class="stats">
-      <div class="stats-grid">
-        <div data-motion="fade-up" data-motion-in="true" class="motion_reveal__KX9E3 motion_fadeUp__XYFyD stat-cell"
-          style="--m-i:0;--m-distance:14px">
-          <div class="num">03</div>
-          <div class="lbl">Years of Excellence</div>
-        </div>
-        <div data-motion="fade-up" data-motion-in="true" class="motion_reveal__KX9E3 motion_fadeUp__XYFyD stat-cell"
-          style="--m-i:0;--m-distance:14px">
-          <div class="num">02</div>
-          <div class="lbl">Academic Programs Offered</div>
-        </div>
-        <div data-motion="fade-up" data-motion-in="true" class="motion_reveal__KX9E3 motion_fadeUp__XYFyD stat-cell"
-          style="--m-i:1;--m-distance:14px">
-          <div class="num">250+</div>
-          <div class="lbl">Enrolled students in LARCOP</div>
-        </div>
-        <div data-motion="fade-up" data-motion-in="true" class="motion_reveal__KX9E3 motion_fadeUp__XYFyD stat-cell"
-          style="--m-i:2;--m-distance:14px">
-          <div class="num">94</div>
-          <div class="lbl">Expert faculty members</div>
-        </div>
-        <div data-motion="fade-up" data-motion-in="true" class="motion_reveal__KX9E3 motion_fadeUp__XYFyD stat-cell"
-          style="--m-i:3;--m-distance:14px">
-          <div class="num">50+</div>
-          <div class="lbl">Research publications</div>
-        </div>
-        <div data-motion="fade-up" data-motion-in="true" class="motion_reveal__KX9E3 motion_fadeUp__XYFyD stat-cell"
-          style="--m-i:4;--m-distance:14px">
-          <div class="num">62+</div>
-          <div class="lbl">Placement Offered in 2026 </div>
-        </div>
-        <div data-motion="fade-up" data-motion-in="true" class="motion_reveal__KX9E3 motion_fadeUp__XYFyD stat-cell"
-          style="--m-i:4;--m-distance:14px">
-          <div class="num">04+</div>
-          <div class="lbl">Industry & Hospital Tie-ups</div>
+
+    </section>
+    <section style="background-color: #cccccc24;">
+      <div class="stats">
+        <div class="stats-grid">
+          <div data-motion="fade-up" data-motion-in="true" class="motion_reveal__KX9E3 motion_fadeUp__XYFyD stat-cell"
+            style="--m-i:0;--m-distance:14px">
+            <div class="num">03</div>
+            <div class="lbl">Years of Excellence</div>
+          </div>
+          <div data-motion="fade-up" data-motion-in="true" class="motion_reveal__KX9E3 motion_fadeUp__XYFyD stat-cell"
+            style="--m-i:0;--m-distance:14px">
+            <div class="num">02</div>
+            <div class="lbl">Academic Programs Offered</div>
+          </div>
+          <div data-motion="fade-up" data-motion-in="true" class="motion_reveal__KX9E3 motion_fadeUp__XYFyD stat-cell"
+            style="--m-i:1;--m-distance:14px">
+            <div class="num">250+</div>
+            <div class="lbl">Enrolled students in LARCOP</div>
+          </div>
+          <div data-motion="fade-up" data-motion-in="true" class="motion_reveal__KX9E3 motion_fadeUp__XYFyD stat-cell"
+            style="--m-i:2;--m-distance:14px">
+            <div class="num">20+</div>
+            <div class="lbl">Expert Faculties</div>
+          </div>
+          <div data-motion="fade-up" data-motion-in="true" class="motion_reveal__KX9E3 motion_fadeUp__XYFyD stat-cell"
+            style="--m-i:3;--m-distance:14px">
+            <div class="num">50+</div>
+            <div class="lbl">Research publications</div>
+          </div>
+          <div data-motion="fade-up" data-motion-in="true" class="motion_reveal__KX9E3 motion_fadeUp__XYFyD stat-cell"
+            style="--m-i:4;--m-distance:14px">
+            <div class="num">62+</div>
+            <div class="lbl">Placement Offered in 2026 </div>
+          </div>
+          <div data-motion="fade-up" data-motion-in="true" class="motion_reveal__KX9E3 motion_fadeUp__XYFyD stat-cell"
+            style="--m-i:4;--m-distance:14px">
+            <div class="num">10+</div>
+            <div class="lbl">Industry & Hospital Tie-ups</div>
+          </div>
         </div>
       </div>
-    </div>
-</section>
-  </style>
+    </section>
 
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const counters = document.querySelectorAll('.stat-number');
+    <section class="section-letest" id="js--active-sticky">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 co-xs-12 news-block">
+            <h3 class="bg-primary-this news-section-title"><i class="fa fa-newspaper-o"
+                aria-hidden="true"></i>&nbsp;<span style="color: white; margin-left: 10px;"> News &amp; Notices</span>
+            </h3>
+            <div class=" news-block" style="overflow: hidden;">
 
-      const animateCounter = (counter) => {
-        const target = Number(counter.dataset.target || 0);
-        const suffix = counter.dataset.suffix || '';
-        const duration = 1800;
-        const startTime = performance.now();
+              <div class="news" style="overflow: hidden;">
+                <ul class="newsticker" style=" overflow: hidden;">
+                  <li class="news-item" style="margin-top: 0px;">
+                    <div class="news-item-box"></div>
+                    <div>
+                      <h4>Pharmacy Counseling and Health Screening</h4>
+                      <p class="p-date">Jul 23, 2019</p>
 
-        const step = (currentTime) => {
-          const progress = Math.min((currentTime - startTime) / duration, 1);
-          const value = Math.floor(target * progress);
-          counter.textContent = value.toLocaleString() + suffix;
+                    </div>
+                  </li>
+                  <li class="news-item" style="margin-top: 0px;">
+                    <div class="news-item-box"></div>
+                    <div>
+                      <h4>Pharmacy Counseling and Health Screening</h4>
+                      <p class="p-date">Jul 23, 2019</p>
 
-          if (progress < 1) {
-            requestAnimationFrame(step);
-          } else {
-            counter.textContent = target.toLocaleString() + suffix;
-          }
-        };
+                    </div>
+                  </li>
+                  <li class="news-item" style="margin-top: 0px;">
+                    <div class="news-item-box"></div>
+                    <div>
+                      <h4>Pharmacy Counseling and Health Screening</h4>
+                      <p class="p-date">Jul 23, 2019</p>
 
-        requestAnimationFrame(step);
-      };
+                    </div>
+                  </li>
+                  <li class="news-item" style="margin-top: 0px;">
+                    <div class="news-item-box"></div>
+                    <div>
+                      <h4>Pharmacy Counseling and Health Screening</h4>
+                      <p class="p-date">Jul 23, 2019</p>
 
-      const observer = new IntersectionObserver((entries, obs) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            animateCounter(entry.target);
-            obs.unobserve(entry.target);
-          }
-        });
-      }, { threshold: 0.5 });
+                    </div>
+                  </li>
+                  <li class="news-item" style="margin-top: 0px;">
+                    <div class="news-item-box"></div>
+                    <div>
+                      <h4>Pharmacy Counseling and Health Screening</h4>
+                      <p class="p-date">Jul 23, 2019</p>
 
-      counters.forEach((counter) => observer.observe(counter));
-    });
-  </script>
+                    </div>
+                  </li>
+                  <li class="news-item" style="margin-top: 0px;">
+                    <div class="news-item-box"></div>
+                    <div>
+                      <h4>Pharmacy Counseling and Health Screening</h4>
+                      <p class="p-date">Jul 23, 2019</p>
+
+                    </div>
+                  </li>
+                  <li class="news-item" style="margin-top: 0px;">
+                    <div class="news-item-box"></div>
+                    <div>
+                      <h4>Pharmacy Counseling and Health Screening</h4>
+                      <p class="p-date">Jul 23, 2019</p>
+
+                    </div>
+                  </li>
+                  <li class="news-item" style="margin-top: 0px;">
+                    <div class="news-item-box"></div>
+                    <div>
+                      <h4>Pharmacy Counseling and Health Screening</h4>
+                      <p class="p-date">Jul 23, 2019</p>
+
+                    </div>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 co-xs-12 features-block " style="overflow: hidden;">
+            <div class=" p-4 rounded-3 shadow-sm features-block" style="overflow: hidden;">
+              <div class="marquee">
+                <div>
+                  <span>Admission open for B.Pharm and D.Pharm and for A. Y. 2025-26</span>
+                  <span>Admission open for B.Pharm and D.Pharm and for A. Y. 2025-26</span>
+                </div>
+              </div>
+              <div class="feature-box">
+                <div class="feature-desc">
+                  <img src="/img/new_icon.gif">
+                  <h4>Admission registration for B. Pharm. and D. Pharm. link 2025-26 </h4>
+                  <p><a target="_blank" href="college-storage/admissionformPharmacy(1).pdf">Click Here</a></p>
+                </div>
+
+
+              </div>
+              <div class="feature-box">
+                <div class="feature-desc">
+
+                  <h4>Admission Brochure 2025-26</h4>
+                  <p><a href="college-storage/Prospect New.pdf">Click here to Download</a></p>
+                </div>
+
+
+              </div>
+              <div class="feature-box">
+                <div class="feature-desc">
+
+                  <img src="/img/new_icon.gif">
+                  <h4>Admission Form</h4>
+                  <p><a href="college-storage/admissionformPharmacy(1).pdf">Click here to Download</a></p>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mission-vision">
+      <div class="container d-flex">
+        <div class="section-icon">
+          <div class="sec-line"></div>
+          <div class="sec-inner"></div>
+        </div>
+        <h3 class=" section-title">OUR VISION AND MISSION</h3>
+      </div>
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 co-xs-12">
+            <div class="mv-block mission-block">
+              <div class="d-flex justify-content-between align-items-center">
+                <h4 class="our-company">LARCOP</h4>
+                <div class="mv-icon"><i class="fa fa-bullseye"></i></div>
+              </div>
+              <h4 class="mv-title">Mission</h4>
+              <div class="mv-text-box">
+                <p>To introduce excellence in Pharmacy education through infrastructure, quality instruction, highly
+                  qualified and experienced faculty, and learning resources to meet the needs of students in pursuit of
+                  their knowledge, as well as to promote entrepreneurial abilities in students and make them competent
+                  pharmacists with a focus on indigenous resources.</p>
+              </div>
+
+              <div class="service-shape">
+                <span class="hexagon-clippath"></span>
+                <span class="hexagon-clippath2"></span>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 co-xs-12">
+            <div class="mv-block vision-block">
+
+              <div class="d-flex justify-content-between align-items-center">
+                <h4 class="our-company">LARCOP</h4>
+                <div class="mv-icon"><i class="fa fa-eye"></i></div>
+              </div>
+
+              <h4 class="mv-title">Vision</h4>
+              <div class="mv-text-box">
+                <p>To be the top institution in the pharmacy discipline by providing outstanding education with the aim
+                  to
+                  accomplish overall growth of the pharmacists to furnish the requirements of the profession and
+                  society.
+                </p>
+              </div>
+
+              <div class="service-shape">
+                <span class="hexagon-clippath"></span>
+                <span class="hexagon-clippath2"></span>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 co-xs-12">
+            <div class="mv-block peo-block">
+              <div class="d-flex justify-content-between align-items-center">
+                <h4 class="our-company">LARCOP</h4>
+                <div class="mv-icon"><i class="fa fa-book" aria-hidden="true"></i></div>
+              </div>
+
+              <h4 class="mv-title">PEO</h4>
+              <div class="mv-text-box">
+                <p><b> PEO1 :</b> Graduates of the program will be having strong background and skills in pharmaceutical
+                  sciences
+                  and
+                  able to use these tools in Pharmaceutical industry and/or institutes where ever necessary for success.
+                </p>
+                <p> <b> PEO2 :</b> Technically sound and mentally robust with critical thinking abilities to excel in
+                  career. </p>
+                <p> <b> PEO3 :</b> Professional and ethical attitude and have ability to address healthcare issues of
+                  community.
+                </p>
+              </div>
+
+              <div class="service-shape">
+                <span class="hexagon-clippath"></span>
+                <span class="hexagon-clippath2"></span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <hr>
+    <section class="our-management">
+      <div class="row">
+        <div class="container d-flex">
+          <div class="section-icon">
+            <div class="sec-line"></div>
+            <div class="sec-inner"></div>
+          </div>
+          <h3 class="section-title">
+            <span>O</span>UR MANAGEMENT
+          </h3>
+        </div>
+        <div class="container">
+          <div class="row p-5">
+            <div class="col-lg-4">
+              <div class="member">
+                <div class="member-img">
+                  <img src="img/president_2.jpg"
+                    style="border-radius: 10px; border: solid;border-color: #ef0b0b; background-color: white;"
+                    alt="member img">
+                </div>
+                <div class="member-info">
+                  <h5 class="member-name">Hon’ Appasaheb Rajale</h5>
+                  <p class="member-desc" style="color: red;">President</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="member">
+                <div class="member-img">
+                  <img src="img/rahuldada_rajale.png"
+                    style="border-radius: 10px; border: solid;border-color: #ef0b0b; background-color: white;"
+                    alt="member img">
+                </div>
+                <div class="member-info">
+                  <h5 class="member-name">Hon’ Rahul Dada Rajale</h5>
+                  <p class="member-desc" style="color: red;">Trustee</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="member">
+                <div class="member-img">
+                  <img src="img/trustee_2.png"
+                    style="border-radius: 10px; border: solid;border-color: #ef0b0b; background-color: white;"
+                    alt="member img">
+                </div>
+                <div class="member-info">
+                  <h5 class="member-name">Hon’ Monika Tai Rajiv ji Rajale</h5>
+                  <p class="member-desc" style="color: red;">Trustee</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-recruiters-sec">
+      <div class="row">
+        <div class="container">
+          <h3 class="section-title">OUR RECRUITERS</h3>
+        </div>
+        <div class="recruiters-block container py-5">
+          <div>
+            <img src="/img/recruiters/agio_no_bg.png" alt="">
+            <img src="/img/recruiters/cipla_bg.png" alt="">
+            <img src="/img/recruiters/emcure_bg.png" alt="">
+            <img src="/img/recruiters/fdc_bg.png" alt="">
+            <img src="/img/recruiters/ipca_bg.png" alt="">
+            <img src="/img/recruiters/lupin_bg.png" alt="">
+            <img src="/img/recruiters/mylan_bg.png" alt="">
+            <img src="/img/recruiters/m_bg.png" alt="">
+            <img src="/img/recruiters/wockhardt_bg.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
+
 
   <footer>
     <div class="container">
@@ -726,10 +977,9 @@
         <div class="col-lg-3 col-md-3 col-sm-12 co-xs-12">
           <h4>Social links</h4>
           <div class="social-links">
+            <a target="_blank" class="icon ion-logo-linkedin social-icon" href="https://in.linkedin.com/in/loknete-appasaheb-rajale-college-of-pharmacy-47656b408"></a>
             <a target="_blank" class="icon ion-logo-facebook social-icon"
               href="https://www.facebook.com/p/Loknete-Appasaheb-Rajale-College-of-Pharmacy-61571782545648/"></a>
-            <a target="_blank" class="icon ion-logo-twitter social-icon" href="https://pharmacy.dprss.in"></a>
-            <a target="_blank" class="icon ion-logo-youtube social-icon" href="https://pharmacy.dprss.in"></a>
             <a target="_blank" class="icon ion-logo-instagram social-icon"
               href="https://www.instagram.com/larcop_adinathnagar"></a>
           </div>
@@ -766,11 +1016,71 @@
   <script src="/vendors/js/newsTicker.js"></script>
   <script src="/vendors/js/jquery.zoom.min.js"></script>
   <!-- <script src="/resources/js/main.js"></script> -->
+  <script src="https://unpkg.com/lenis@1.3.11/dist/lenis.min.js"></script>
   <script src="/resources/js/O_main.js"></script>
 
   <script>
     $(document).ready(function () {
-    
+      const lenis = new Lenis({
+        duration: 0.9,
+        smoothWheel: true,
+        wheelMultiplier: 1,
+        touchMultiplier: 2,
+      });
+
+      function raf(time) {
+        lenis.raf(time);
+        requestAnimationFrame(raf);
+      }
+
+      requestAnimationFrame(raf);
+      $('.stat-cell').addClass('is-visible');
+
+      $('.stat-cell .num').each(function () {
+        var $this = $(this);
+        var rawText = $this.text();
+
+        var targetNum = parseInt(rawText.replace(/[^0-9]/g, ''), 10);
+        var suffix = rawText.replace(/[0-9]/g, '');
+        var originalLength = rawText.replace(/[^0-9]/g, '').length;
+
+        function easeOutExpo(t, b, c, d) {
+          return (t === d) ? b + c : c * (-Math.pow(2, -10 * t / d) + 1) + b;
+        }
+
+        var duration = 5000; // Animation time in milliseconds
+        var startTime = null;
+
+        function animateCount(timestamp) {
+          if (!startTime) startTime = timestamp;
+          var progress = timestamp - startTime;
+
+          if (progress > duration) progress = duration;
+
+          var currentVal = easeOutExpo(progress, 0, targetNum, duration);
+          var currentNumStr = Math.floor(currentVal).toString();
+
+          while (currentNumStr.length < originalLength) {
+            currentNumStr = '0' + currentNumStr;
+          }
+
+          $this.text(currentNumStr + suffix);
+
+          if (progress < duration) {
+            requestAnimationFrame(animateCount);
+          } else {
+            var finalNumStr = targetNum.toString();
+            while (finalNumStr.length < originalLength) {
+              finalNumStr = '0' + finalNumStr;
+            }
+            $this.text(finalNumStr + suffix);
+          }
+        }
+
+        // Initialize animation smoothly via browser paint cycles
+        requestAnimationFrame(animateCount);
+      });
+
     });
   </script>
 </body>

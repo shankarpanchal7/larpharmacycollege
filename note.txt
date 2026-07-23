@@ -11,29 +11,24 @@ https://dprss.in/
 
 
 
+my refrences
+
+https://dpu.edu.in/#vid
+https://preview.themeforest.net/item/kingster-education-wordpress-theme-for-university-college-and-school/full_screen_preview/22473937
+https://lizza.wpenginepowered.com/lms/
+
+https://www.amrutpharm.co.in/ *
+https://vivekanandgroup.com/school/info/21/B.PHARMA
+https://www.arvindgavalipharmacycollege.com/
+https://bhavans.ac.in/college/ *
+
+advance
+https://warwick.ac.uk/?gad_source=1&gad_campaignid=22681133472&gbraid=0AAAABAEoIUlxAGWMqxpY5iW1wjMSDvglE&gclid=CjwKCAjw9szSBhBNEiwAC57Sq0Uz2Rl4oW9RscXO6zGCCgCnMtYyvaBgnYvx3RrD7u6KLww1Z5eQjRoCfRkQAvD_BwE
 
 
---------------- Pages ----------------
-About us Section
-Message from the Desk section
-Approvals Tab from About Us Section
+Smooth Scrolling
 
-Home page design - inprogress
-Contact us page - done 
-Service rule - done
-Institute profile - done
-Principle message - done
-President message - done
-Secretary message - done
-Governing body - pending
-Research & Development Cell - done
-T&P -> Higher Studies - done
-Academics -> Departments - done
-Academics -> Academic Timetable -> First Year Diploma - done
-Academics -> Academic Timetable -> Second Year Diploma - done
-Academics -> Academic Timetable -> First Year Degree - done
-Academics -> Academic Timetable -> First Year Degree - done
-Academics -> Academic Timetable -> Second Year Degree - done
-Academics -> Academic Timetable -> Second Year Degree - done
-Academics -> Academic Timetable -> Third Year Degree - done
-Academics -> Academic Timetable -> Third Year Degree - done
+
+Task ::
+- Video bg
+- Delete the logo of Twitter & YouTube. I will give you the link of LinkedIn.

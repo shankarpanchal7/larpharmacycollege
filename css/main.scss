@@ -457,11 +457,13 @@ header .rd-navbar-inner {
 .logo-top {
     vertical-align: middle;
     width: 135px;
+    background: #fff;
+    border-radius: 4%;
 }
 /*Header text color*/
 .title *{
     text-align: center;
-    color: #222 !important;
+    color: #e4dc0d !important;
     font-weight: 700;
     margin:5px 0px;
 }
@@ -469,19 +471,21 @@ header .rd-navbar-inner {
     vertical-align: middle;
 }
 .title.title-1 *{
-    font-size: 220%;
+    font-size: 2rem;
     text-shadow: 0.5px 1px #a2a2a2;
     color: $headTitleColor !important;
 }   
 .title.title-2 *{
-    font-size: 90%;
+    font-size: 18px;
     margin: 10px 0px;
-    font-weight: 700;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 .title.title-2 h2::after{display: none;}
 .title.title-3 *{
-    font-size: 90%;
-    font-weight: 700;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .title {
@@ -600,6 +604,7 @@ header .rd-navbar-inner {
     height: auto;
     background: -webkit-linear-gradient(to right, #003366, #3180cf, #003366);
     background: linear-gradient(to right, #003366, #3180cf, #003366);
+    background: $color_secondary;
 }
 
 .sticky {
@@ -646,6 +651,7 @@ nav > ul .topnav-list:hover {
     background-image: -o-linear-gradient(to bottom, $brandDark 0,$brandLight 100%);
     background-image:  -webkit-linear-gradient(to bottom, $brandDark 0,$brandLight 100%);
     background-image:  linear-gradient(to bottom, $brandLight 0,$brandDark 100%);
+    background-image: linear-gradient(to bottom, #21cdad 0, #21cdad 100%);
 }
 nav > ul li a:link,
 nav > ul li a:visited {
@@ -790,6 +796,7 @@ ul.my-sub-menu li a:hover{
 
 .section-letest {
     padding:0;
+    border-bottom: 40px solid $this-secondary;
 }
 .section-letest .row,.section-letest .container-fluid{margin: 0;padding: 0;}
 
@@ -810,45 +817,63 @@ ul.my-sub-menu li a:hover{
 .section-letest h2::after{
     display: none;
 }
-.section-letest .icon-feature,.section-letest .icon-news {width:45px;}
+.section-letest .icon-feature,.section-letest .icon-news {width: 30px;}
 
 .news-block,.features-block {
-    padding: 60px 15px 30px 40px;
+    padding: 0;
     margin: 0;
 }
 .features-block{
     padding-top: 20px;
-    padding-right: 90px;
     overflow: scroll;
     max-height: 580px;
 }
-.news-block{padding-left: 30px;}
 .news-block {
-    background:#fff;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 15px 20px;
     border-radius: 2px;
-    background-color: #eeeeee;
-
 }
 .news-block *{color: #222;}
 .news-block h4,.features-block h4{
-    text-transform: uppercase;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 10px;
     
 }
-
+.news-section-title {
+  padding: 8px 32px;
+  margin: 0px 0px;
+  font-size: 1.35rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  
+  i {
+    color: #fff;
+  }
+}
 .news p,.features-block p{font-size: 90%;margin-bottom: 0;}
 .p-date{color:#888;}
 .news ul{margin: 0;}
 .news-item{
-    padding: 15px 15px 15px 40px;
-    border-bottom: 1px dotted #222;
-    background-color: #e3e3e3;
-    margin-bottom: 8px;
-    box-shadow: 1px 1px 2px 0px #c7cfed;
+    padding: 8px 8px 8px 15px;
+    border-bottom: 1px solid $this-primary;
+    background-color: #cccccc24;
+    // box-shadow: 1px 1px 2px 0px #c7cfed;
+    display: flex; 
+    align-items: center;
+    gap: 10px;
+
+    .news-item-box {
+        width: 40;
+        height: 40px;
+        // background-color: $this-primary;
+    }
 }
-.features-block {background-color: #efefef;}
+.features-block {
+    background-color: $this-secondary;
+    // border-radius: 4px;
+}
 .features-block *{color: #222;}
 .feature-box .feature-img,.feature-box .feature-desc{
     display: inline-block;
@@ -859,7 +884,8 @@ ul.my-sub-menu li a:hover{
     -webkit-box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
     box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
     background-color: #fff;
-    border-left: 4px solid $color_primary;
+    border-left: 4px solid $this-primary;
+    border-radius: 4px;
 }
 .feature-box .feature-desc{padding-left: 10px;}
 .news-item h4{position: relative;}

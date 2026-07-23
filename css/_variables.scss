@@ -4,9 +4,9 @@ $this-secondary: #002678;
 $brandDark: #4baf64;
 $brandLight: #0c9240;
 $brandSecondary: #2f3b40;
-$color_primary: $brandDark;
+$color_primary: $this-primary;
 // $color_primary: $cerulean-crayola;
-$color_secondary: $brandLight;
+$color_secondary: $this-secondary;
 $color_dark: #323232;
 $color_lightDark: #373a40;
 $themeColor1: #373a40;
@@ -16,13 +16,13 @@ $color-hcolor: #fff;
 // Green 3db166
 $color-navbg: $color_primary;
 $color-navtext: #fff;
-$social_top: #e5eee9;
-$headTitleColor: #76370d;
+$social_top: $this-secondary;
+$headTitleColor: #fff;
 $headerMenu: $color_primary;
 $textOnPrimary: #d4dcec;
 $hoverHeaderBg: $brandDark;
 
-$header_top: #e5eee9;
+$header_top: $this-secondary;
 
 $primaryLight: #d7cdc3;
 

@@ -39,6 +39,7 @@
     <meta name="theme-color" content="#ffffff">
     <!-- <link rel="stylesheet" href="css/style2.css"> -->
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/section.css">
     
     <link rel="stylesheet" href="resources/css/queries.css">
