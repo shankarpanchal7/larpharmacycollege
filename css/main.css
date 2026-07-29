@@ -555,6 +555,7 @@ header .rd-navbar-inner {
   position: absolute;
   top: 0;
   right: 15%;
+  z-index: 1;
 }
 
 .social-top {

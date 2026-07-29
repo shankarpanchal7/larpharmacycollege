@@ -32,21 +32,16 @@ include_once("components/header_b.php"); ?>
                     </tr>
                     <tr>
                         <td>3</td>
-                        <td>Prof. Saudar S.S</td>
-                        <td>Member</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
                         <td>Prof. Handal R.M</td>
                         <td>Member</td>
                     </tr>
                     <tr>
-                        <td>5</td>
+                        <td>4</td>
                         <td>Prof. Ghorpade P.R</td>
                         <td>Member</td>
                     </tr>
                     <tr>
-                        <td>6</td>
+                        <td>5</td>
                         <td>Prof. Shinde P.S</td>
                         <td>Member</td>
                     </tr>

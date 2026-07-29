@@ -4,108 +4,144 @@ echo '<title>Loknete Appasaheb Rajale College of Pharmacy</title>';
 include_once("components/header_b.php"); ?>
 
 <style>
-  .marquee {
-  height: 25px;
-  overflow: hidden;
-  position: relative;
-  padding-bottom: 35px
-}
+    .marquee {
+      height: 25px;
+      overflow: hidden;
+      position: relative;
+      padding-bottom: 35px
+    }
 
-.marquee div {
-  display: block;
-  width: 200%;
-  height: 30px;
+    .marquee div {
+      display: block;
+      width: 200%;
+      height: 30px;
 
-  position: absolute;
-  overflow: hidden;
+      position: absolute;
+      overflow: hidden;
 
-  animation: marquee 10s linear infinite;
-}
+      animation: marquee 10s linear infinite;
+    }
 
-.marquee span {
-  float: left;
-  width: 50%;
-  font-weight: 700;
-  color: #e90c15;
-  font-style: oblique;
-}
+    .marquee span {
+      float: left;
+      width: 50%;
+      font-weight: 400;
+      color: red;
+      font-style: italic;
+    }
 
-.carousel-item {
-    height: 700px !important;
-}
+    .carousel-item {
+      height: 480px !important;
+    }
 
-@keyframes marquee {
-  0% { left: 0; }
-  100% { left: -100%; }
-}
+    @keyframes marquee {
+      0% {
+        left: 0;
+      }
 
-/*----------------------------------------------------------*/
-.card-3d {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1),
-              0 25px 50px rgba(0, 0, 0, 0.1);
-  border-radius: 1rem;
-}
+      100% {
+        left: -100%;
+      }
+    }
 
-.card-3d:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15),
-              0 35px 70px rgba(0, 0, 0, 0.2);
-}
+    /*----------------------------------------------------------*/
+    .card-3d {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1),
+        0 25px 50px rgba(0, 0, 0, 0.1);
+      border-radius: 1rem;
+    }
 
-.img-3d {
-  border: 6px solid #fff;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease;
-}
+    .card-3d:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15),
+        0 35px 70px rgba(0, 0, 0, 0.2);
+    }
 
-.card-3d:hover .img-3d {
-  transform: scale(1.05);
-}
+    .img-3d {
+      border: 6px solid #fff;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
 
-  .stat-cell {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1),
-      transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
-  }
-
-  .stat-cell.is-visible {
-    opacity: 1;
-    transform: translateY(0);
-  }
-</style>
+    .card-3d:hover .img-3d {
+      transform: scale(1.05);
+    }
+  </style>
 
   <main>
-    <div class="banner-section">
-      <div class="banner_wrapper">
-        <div class="banner-bg">
-          <div class="banner_img hide">
-            <img src="https://www.dypiu.ac.in/assets/images/home/banner.webp" alt="Banner Image" width="1920"
-              height="1300" class="img-fluid d-none d-sm-block" fetchpriority="high">
-            <img src="https://www.dypiu.ac.in/assets/images/home/banner_mobile.webp" alt="Banner Image"
-              class="img-fluid d-block d-sm-none" fetchpriority="high">
+    <section class="section-carousel">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+        </ol>
+
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="/img/slides/slide1.jpg" alt="Loknete Appasaheb Rajale College of Pharmacy">
           </div>
-          <div class="overlay_banner_video show">
-            <video width="100%" height="100%" src="/video/videoplayback.webm" muted="" autoplay="" loop=""
-              preload="none"></video>
+
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/slides/slide2.jpg" alt="Loknete Appasaheb Rajale College of Pharmacy">
           </div>
-        </div>
-        <div class="banner_text">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <div class="banner-content">
-                  <!-- <h2 class="banner_description"></h2> -->
-                </div>
-              </div>
-            </div>
+
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/slides/slide3.jpg" alt="Loknete Appasaheb Rajale College of Pharmacy">
           </div>
+
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/slides/slide4.jpg" alt="Loknete Appasaheb Rajale College of Pharmacy">
+          </div>
+
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/slides/slide5.jpg" alt="Loknete Appasaheb Rajale College of Pharmacy">
+          </div>
+
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/slides/slide6.jpg" alt="Loknete Appasaheb Rajale College of Pharmacy">
+          </div>
+
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/slides/slide7.jpg" alt="Loknete Appasaheb Rajale College of Pharmacy">
+          </div>
+
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/slides/slide8.jpg" alt="Loknete Appasaheb Rajale College of Pharmacy">
+          </div>
+
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/slides/slide9.jpg" alt="Loknete Appasaheb Rajale College of Pharmacy">
+          </div>
+
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/slides/slide10.jpg" alt="Loknete Appasaheb Rajale College of Pharmacy">
+          </div>
+
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+
         </div>
       </div>
-    </div>
+    </section>
     <section class="about1">
-      <img class="about-sec-logo-top" alt="logo" src="/img/logo_tr.png">
+      <!-- <img class="about-sec-logo-top" alt="logo" src="/img/logo_tr.png"> -->
       <div class="td_height_120 td_height_lg_80"></div>
       <div class="institute-profile-section td_style_1">
         <div class="container">
@@ -313,38 +349,33 @@ include_once("components/header_b.php"); ?>
             <div class=" p-4 rounded-3 shadow-sm features-block" style="overflow: hidden;">
               <div class="marquee">
                 <div>
-                  <span>Admission open for B.Pharm and D.Pharm and for A. Y. 2025-26</span>
-                  <span>Admission open for B.Pharm and D.Pharm and for A. Y. 2025-26</span>
+                  <span>Admission open for B.Pharm and D.Pharm and for A. Y. 2026-27</span>
+                  <span>Admission open for B.Pharm and D.Pharm and for A. Y. 2026-27</span>
                 </div>
               </div>
               <div class="feature-box">
                 <div class="feature-desc">
                   <img src="/img/new_icon.gif">
-                  <h4>Admission registration for B. Pharm. and D. Pharm. link 2025-26 </h4>
-                  <p><a target="_blank" href="college-storage/admissionformPharmacy(1).pdf">Click Here</a></p>
+                  <h4><b>Admission Enquiry for D.Pharm & B.Pharm. link </b></h4>
+                  <p><a target="_blank" href="https://docs.google.com/forms/d/1rvTojSawHSzG4d18-aoAz1DLWx5P7j2bSUG6t4H8vUE/viewform?pli=1&chromeless=1&pli=1&edit_requested=true">Click Here</a></p>
                 </div>
 
 
               </div>
-              <div class="feature-box">
+              <!-- <div class="feature-box">
                 <div class="feature-desc">
 
-                  <h4>Admission Brochure 2025-26</h4>
+                  <h4>Admission Brochure 2026-27</h4>
                   <p><a href="college-storage/Prospect New.pdf">Click here to Download</a></p>
                 </div>
-
-
-              </div>
-              <div class="feature-box">
+              </div> -->
+              <!-- <div class="feature-box">
                 <div class="feature-desc">
-
                   <img src="/img/new_icon.gif">
                   <h4>Admission Form</h4>
                   <p><a href="college-storage/admissionformPharmacy(1).pdf">Click here to Download</a></p>
                 </div>
-
-
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -517,24 +548,6 @@ include_once("components/header_b.php"); ?>
       </div>
     </section>
   </main>
-
-<style>
-.quick-links .btn {
-  transition: all 0.3s ease-in-out;
-  font-weight: 600;
-  border: 1px solid;
-  border-radius: 10px;
-}
-
-.quick-links .btn:hover {
-  background-color: #5f3112;
-  color: #fff;
-  border: 1px solid #fff;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-}
-</style>
-
 <?php
 include_once('components/footer.php');
 ?>

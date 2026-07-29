@@ -3,6 +3,22 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2026-07-30 - 1.0.1]
+
+### Added
+- Header Social icon updated
+- Carousel Updated
+- Profile data upated
+- 2 Counters Updated
+- Mission Vision color change 
+- R and D Cell page updated (Removed row number 3)
+- Removed youtube and twitter logo and used linkedin logo. Make 2026 in footer.
+- About Us ➡️ About Institute
+- About Us ➡️ Institute Organogram
+- Amission Enquiry
+- Bachelor of Pharmacy (B.Pharm.) page 
+- Diploma in Pharmacy (D.Pharm.) page
+
 ## - 2026-06-07 - 1.0.0
 ### Added
 - initial setup and ready structure added

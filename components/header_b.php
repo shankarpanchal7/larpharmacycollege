@@ -20,7 +20,8 @@
         <ul class="list-inline list-inline-lg offset-top-0 social-top" style="justify-content: flex-end;">
           <li><a target="_blank" class="icon ion-logo-facebook social-facebook"
               href="https://www.facebook.com/p/Loknete-Appasaheb-Rajale-College-of-Pharmacy-61571782545648/"></a></li>
-          <li><a target="_blank" class="icon ion-logo-linkedin social-twitter" href="https://in.linkedin.com/in/loknete-appasaheb-rajale-college-of-pharmacy-47656b408"></a></li>
+          <li><a target="_blank" class="icon ion-logo-linkedin social-twitter"
+              href="https://in.linkedin.com/in/loknete-appasaheb-rajale-college-of-pharmacy-47656b408"></a></li>
           <li><a target="_blank" class="icon ion-logo-instagram social-instagram"
               href="https://www.instagram.com/larcop_adinathnagar"></a></li>
         </ul>
@@ -90,13 +91,13 @@
                             class="fa fa-angle-double-right text-secondary"></i>&nbsp;Institute Profile</a></li>
                       <li><a href="/mission-vision.php"><i
                             class="fa fa-angle-double-right text-secondary"></i>&nbsp;Vision, Mission & PEO</a></li>
-                      <li><a href="/organisational-structure.php"><i
+                      <li><a href="organizational-structure.php"><i
                             class="fa fa-angle-double-right text-secondary"></i>&nbsp;Institute Organogram</a></li>
                       <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Code of Conduct</a>
                       </li>
                       <li><a target="_blank" href="/college-storage/service-rules.pdf"><i
                             class="fa fa-angle-double-right text-secondary"></i>&nbsp;Service Rules</a></li>
-                      <li><a href="/about-trust.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;About
+                      <li><a href="/about-institute.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;About
                           Institute</a></li>
                       <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Mandatory
                           Disclosure</a></li>
@@ -138,8 +139,8 @@
               <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false">Courses</a>
               <ul class="my-sub-menu dropdown-menu md-dropdown-menu">
-                <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;D.Pharm.</a></li>
-                <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;B.Pharm.</a></li>
+                <li><a href="/admission-details-dpharm.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;D.Pharm.</a></li>
+                <li><a href="/admission-details-bpharm.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;B.Pharm.</a></li>
               </ul>
             </li>
 
@@ -151,13 +152,13 @@
                   <div class="col-md-4">
                     <ul class="my-sub-menu-nav">
                       <li class="dropdown-header header_li_underline mont">Admission</li>
-                      <li><a href="/rules-regulations.php"><i
+                      <li><a href="/rules-and-regulations.php"><i
                             class="fa fa-angle-double-right text-secondary"></i>&nbsp;Rules & Regulations</a></li>
-                      <li><a href="/eligibility-criteria.php"><i
+                      <li><a href="/admission-eligibility-criteria.php"><i
                             class="fa fa-angle-double-right text-secondary"></i>&nbsp;Eligibility Criteria</a></li>
                       <li><a href="/fees-structure.php"><i
                             class="fa fa-angle-double-right text-secondary"></i>&nbsp;Fees Structure</a></li>
-                      <li><a href="/ADMISSION-PROCEDURE.php"><i
+                      <li><a href="/admission-process.php"><i
                             class="fa fa-angle-double-right text-secondary"></i>&nbsp;Admission Process</a></li>
                     </ul>
                   </div>
@@ -165,7 +166,7 @@
                     <ul class="my-sub-menu-nav">
                       <li><a href="/college-storage/Prospect New.pdf"><i
                             class="fa fa-angle-double-right text-secondary"></i>&nbsp;Admission Brochure</a></li>
-                      <li><a href="/scolarship.php"><i
+                      <li><a href="/scholarships.php"><i
                             class="fa fa-angle-double-right text-secondary"></i>&nbsp;Scholarships</a></li>
                     </ul>
                   </div>
@@ -371,13 +372,9 @@
   <div class="clearfix"></div>
 
 
-
-
-
-
   <style>
     .section-75 {
       paddingTop: 60px !important;
       paddingBottom: 30px !important;
     }
-</style>
+  </style>
