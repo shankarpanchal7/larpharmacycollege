@@ -30,7 +30,7 @@
               <div class="col-lg-3 col-md-3 col-sm-12 co-xs-12">
                   <h4>Social links</h4>
 <div class="social-links">
-            <a target="_blank" class="icon ion-logo-linkedin social-icon" href="https://in.linkedin.com/in/loknete-appasaheb-rajale-college-of-pharmacy-47656b408"></a>
+            <a target="_blank" class="icon ion-logo-linkedin social-icon" href="https://www.linkedin.com/in/loknete-appasaheb-rajale-college-of-pharmacy-0b3a59415/"></a>
             <a target="_blank" class="icon ion-logo-facebook social-icon"
               href="https://www.facebook.com/p/Loknete-Appasaheb-Rajale-College-of-Pharmacy-61571782545648/"></a>
             <a target="_blank" class="icon ion-logo-instagram social-icon"

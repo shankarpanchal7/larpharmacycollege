@@ -21,7 +21,7 @@
           <li><a target="_blank" class="icon ion-logo-facebook social-facebook"
               href="https://www.facebook.com/p/Loknete-Appasaheb-Rajale-College-of-Pharmacy-61571782545648/"></a></li>
           <li><a target="_blank" class="icon ion-logo-linkedin social-twitter"
-              href="https://in.linkedin.com/in/loknete-appasaheb-rajale-college-of-pharmacy-47656b408"></a></li>
+              href="https://www.linkedin.com/in/loknete-appasaheb-rajale-college-of-pharmacy-0b3a59415/"></a></li>
           <li><a target="_blank" class="icon ion-logo-instagram social-instagram"
               href="https://www.instagram.com/larcop_adinathnagar"></a></li>
         </ul>
@@ -168,6 +168,12 @@
                             class="fa fa-angle-double-right text-secondary"></i>&nbsp;Admission Brochure</a></li>
                       <li><a href="/scholarships.php"><i
                             class="fa fa-angle-double-right text-secondary"></i>&nbsp;Scholarships</a></li>
+                      <li>
+                        <a target="_blank" href="https://larcp.vriddhionline.com">
+                        <i class="fa fa-angle-double-right text-secondary"></i>
+                          &nbsp;Vriddhi Portal
+                        </a>
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -275,8 +281,7 @@
                       class="fa fa-angle-double-right text-secondary"></i>&nbsp;Placement</a></li>
                 <li><a href="/higher-studies.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Higher
                     Studies</a></li>
-                <li><a href="/our-recruties.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Our
-                    Recruiters</a></li>
+                <li><a href="/our-recruiters.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Our Recruiters</a></li>
                 <li><a href="/industrial-visits.php"><i
                       class="fa fa-angle-double-right text-secondary"></i>&nbsp;Industrial / Field Visits</a></li>
               </ul>
@@ -290,7 +295,7 @@
                   <div class="col-md-4">
                     <ul class="my-sub-menu-nav">
                       <li class="dropdown-header header_li_underline mont">Student Support</li>
-                      <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Women Grievance
+                      <li><a href="/women-grievance-redressalcell.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Women Grievance
                           Committee</a></li>
                       <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Student Grievance
                           Redressal Committee</a></li>

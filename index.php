@@ -31,7 +31,13 @@ include_once("components/header_b.php"); ?>
     }
 
     .carousel-item {
-      height: 480px !important;
+      height: 580px !important;
+    }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+      width: 50px;
+      height: 50px;
     }
 
     @keyframes marquee {
@@ -70,7 +76,7 @@ include_once("components/header_b.php"); ?>
   </style>
 
   <main>
-    <section class="section-carousel">
+<section class="section-carousel">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
         <ol class="carousel-indicators">
@@ -82,49 +88,55 @@ include_once("components/header_b.php"); ?>
           <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
         </ol>
 
         <div class="carousel-inner">
 
           <div class="carousel-item active">
-            <img class="d-block w-100" src="/img/slides/slide1.jpg" alt="Loknete Appasaheb Rajale College of Pharmacy">
+            <img class="d-block w-100" src="/img/slides/slide1.png" alt="Loknete Appasaheb Rajale College of Pharmacy">
           </div>
 
           <div class="carousel-item">
-            <img class="d-block w-100" src="/img/slides/slide2.jpg" alt="Loknete Appasaheb Rajale College of Pharmacy">
+            <img class="d-block w-100" src="/img/slides/slide2.png" alt="Loknete Appasaheb Rajale College of Pharmacy">
           </div>
 
           <div class="carousel-item">
-            <img class="d-block w-100" src="/img/slides/slide3.jpg" alt="Loknete Appasaheb Rajale College of Pharmacy">
+            <img class="d-block w-100" src="/img/slides/slide3.png" alt="Loknete Appasaheb Rajale College of Pharmacy">
           </div>
 
           <div class="carousel-item">
-            <img class="d-block w-100" src="/img/slides/slide4.jpg" alt="Loknete Appasaheb Rajale College of Pharmacy">
+            <img class="d-block w-100" src="/img/slides/slide4.png" alt="Loknete Appasaheb Rajale College of Pharmacy">
           </div>
 
           <div class="carousel-item">
-            <img class="d-block w-100" src="/img/slides/slide5.jpg" alt="Loknete Appasaheb Rajale College of Pharmacy">
+            <img class="d-block w-100" src="/img/slides/slide5.png" alt="Loknete Appasaheb Rajale College of Pharmacy">
           </div>
 
           <div class="carousel-item">
-            <img class="d-block w-100" src="/img/slides/slide6.jpg" alt="Loknete Appasaheb Rajale College of Pharmacy">
+            <img class="d-block w-100" src="/img/slides/slide6.png" alt="Loknete Appasaheb Rajale College of Pharmacy">
           </div>
 
           <div class="carousel-item">
-            <img class="d-block w-100" src="/img/slides/slide7.jpg" alt="Loknete Appasaheb Rajale College of Pharmacy">
+            <img class="d-block w-100" src="/img/slides/slide7.png" alt="Loknete Appasaheb Rajale College of Pharmacy">
           </div>
 
           <div class="carousel-item">
-            <img class="d-block w-100" src="/img/slides/slide8.jpg" alt="Loknete Appasaheb Rajale College of Pharmacy">
+            <img class="d-block w-100" src="/img/slides/slide8.png" alt="Loknete Appasaheb Rajale College of Pharmacy">
           </div>
 
           <div class="carousel-item">
-            <img class="d-block w-100" src="/img/slides/slide9.jpg" alt="Loknete Appasaheb Rajale College of Pharmacy">
+            <img class="d-block w-100" src="/img/slides/slide9.png" alt="Loknete Appasaheb Rajale College of Pharmacy">
           </div>
 
           <div class="carousel-item">
-            <img class="d-block w-100" src="/img/slides/slide10.jpg" alt="Loknete Appasaheb Rajale College of Pharmacy">
+            <img class="d-block w-100" src="/img/slides/slide10.png" alt="Loknete Appasaheb Rajale College of Pharmacy">
+          </div>
+
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/slides/slide11.png" alt="Loknete Appasaheb Rajale College of Pharmacy">
           </div>
 
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
