@@ -78,64 +78,64 @@ include_once("components/header_b.php"); ?>
                             <td>Member</td>
                         </tr>
 
-                        <tr>
+                        <!-- <tr>
                             <td>4</td>
                             <td>Miss. Shaharwale</td>
                             <td>Teaching Staff Representative</td>
                             <td>Member</td>
-                        </tr>
+                        </tr> -->
 
                         <tr>
-                            <td>5</td>
+                            <td>4</td>
                             <td>Ms. Shinde P. S.</td>
                             <td>Teaching Staff Representative</td>
                             <td>Member</td>
                         </tr>
 
                         <tr>
-                            <td>6</td>
+                            <td>5</td>
                             <td>Ms. Chitale Dipali</td>
                             <td>Teaching Staff Representative</td>
                             <td>Member</td>
                         </tr>
 
                         <tr>
-                            <td>7</td>
+                            <td>6</td>
                             <td>Ms. Ghorpade P. R.</td>
                             <td>Teaching Staff Representative</td>
                             <td>Member</td>
                         </tr>
 
                         <tr>
-                            <td>8</td>
+                            <td>7</td>
                             <td>Ms. Markad Ashvini</td>
                             <td>Non-Teaching Staff Representative</td>
                             <td>Member</td>
                         </tr>
 
                         <tr>
-                            <td>9</td>
+                            <td>8</td>
                             <td>Mrs. Shinde S. D.</td>
                             <td>Non-Teaching Staff Representative</td>
                             <td>Member</td>
                         </tr>
 
                         <tr>
-                            <td>10</td>
+                            <td>9</td>
                             <td>Ms. Maniyar Bushra</td>
                             <td>Student Representative</td>
                             <td>Student Member</td>
                         </tr>
 
                         <tr>
-                            <td>11</td>
+                            <td>10</td>
                             <td>Ms. Walke S. V.</td>
                             <td>Student Representative</td>
                             <td>Student Member</td>
                         </tr>
 
                         <tr>
-                            <td>12</td>
+                            <td>11</td>
                             <td>Ms. Ekshinge S. N.</td>
                             <td>Student Representative</td>
                             <td>Student Member</td>

@@ -3,22 +3,6 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## [2026-07-30 - 1.0.1]
-
-### Added
-- Header Social icon updated
-- Carousel Updated
-- Profile data upated
-- 2 Counters Updated
-- Mission Vision color change 
-- R and D Cell page updated (Removed row number 3)
-- Removed youtube and twitter logo and used linkedin logo. Make 2026 in footer.
-- About Us ➡️ About Institute
-- About Us ➡️ Institute Organogram
-- Amission Enquiry
-- Bachelor of Pharmacy (B.Pharm.) page 
-- Diploma in Pharmacy (D.Pharm.) page
-
 ## - 2026-06-07 - 1.0.0
 ### Added
 - initial setup and ready structure added
@@ -47,9 +31,15 @@ All notable changes to this project will be documented in this file.
 - Academics -> Academic Timetable -> Third Year Degree
 - Academics -> Academic Timetable -> Third Year Degree
 
-## - 2026-06-23 - 1.0.4
+## - 2026-06- - 1.0.4
 ### Added
 
-- Added Academics Syllabus 
-- Added Academics Calendar
-- Added Academics Departments 
+- Academics - Academic Calendar  - MSBTE -2023-24
+- Academics - Academic Calendar  - MSBTE -2024-25
+- Academics - Academic Calendar  - MSBTE -2025-26
+- Academics➡️ Academic Calendar ➡️ DBATU➡️2023-24
+- Academics➡️ Academic Calendar ➡️ DBATU➡️2023-24
+- Academics➡️ Academic Calendar ➡️ DBATU➡️2024-25
+- Academics➡️ Academic Calendar ➡️ DBATU➡️2024-25
+- Academics➡️ Academic Calendar ➡️ DBATU➡️2024-25
+- Academics➡️ Academic Calendar ➡️ DBATU➡️2025-26

@@ -292,7 +292,18 @@
                 aria-expanded="false">Students Corner</a>
               <ul class="my-sub-menu dropdown-menu mega-dropdown-menu mega_dropdown">
                 <div class="row">
-                  <div class="col-md-4">
+                  <div class="col-md-3">
+                    <ul class="my-sub-menu-nav">
+                      <li class="dropdown-header header_li_underline mont">Student Registration</li>
+                      <li><a target="_blank" href="https://mis.dbatu.ac.in/erp/index.aspx"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;DBATU ERP Portal</a>
+                      </li>
+                      <li><a target="_blank" href="https://online.msbte.co.in/msbte25"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;MSBTE ERP Portal</a>
+                      </li>
+                      <li><a target="_blank" href="https://larcp.vriddhionline.com/"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;College ERP Portal</a></li>
+              
+                    </ul>
+                  </div>
+                  <div class="col-md-3">
                     <ul class="my-sub-menu-nav">
                       <li class="dropdown-header header_li_underline mont">Student Support</li>
                       <li><a href="/women-grievance-redressalcell.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Women Grievance
@@ -316,7 +327,7 @@
                       </li>
                     </ul>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-3">
                     <ul class="my-sub-menu-nav">
                       <li class="dropdown-header header_li_underline mont">Alumni</li>
                       <li><a href="/alumni-committee.php"><i
@@ -329,7 +340,7 @@
                       <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Find Alumni</a></li>
                     </ul>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-3">
                     <ul class="my-sub-menu-nav">
                       <li class="dropdown-header header_li_underline mont">Student Facilities</li>
                       <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Sports Facility</a>

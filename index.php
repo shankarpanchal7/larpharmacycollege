@@ -368,19 +368,19 @@ include_once("components/header_b.php"); ?>
               <div class="feature-box">
                 <div class="feature-desc">
                   <img src="/img/new_icon.gif">
-                  <h4><b>Admission Enquiry for D.Pharm & B.Pharm. link </b></h4>
+                  <h4>🔔<b> Admission Enquiry for D.Pharm & B.Pharm. link </b></h4>
                   <p><a target="_blank" href="https://docs.google.com/forms/d/1rvTojSawHSzG4d18-aoAz1DLWx5P7j2bSUG6t4H8vUE/viewform?pli=1&chromeless=1&pli=1&edit_requested=true">Click Here</a></p>
                 </div>
 
 
               </div>
-              <!-- <div class="feature-box">
+              <div class="feature-box">
                 <div class="feature-desc">
-
-                  <h4>Admission Brochure 2026-27</h4>
-                  <p><a href="college-storage/Prospect New.pdf">Click here to Download</a></p>
+                  <img src="/img/new_icon.gif">
+                  <h4><b>🔔 Staff Selection Recruitment - Important Update</b></h4>
+                  <p><a target="_blank" href="/college-storage/RECRUITMENTS staff selection.pdf">Click here</a></p>
                 </div>
-              </div> -->
+              </div>
               <!-- <div class="feature-box">
                 <div class="feature-desc">
                   <img src="/img/new_icon.gif">
