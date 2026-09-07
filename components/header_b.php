@@ -347,7 +347,7 @@
                       </li>
                       <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Hostel Facility</a>
                       </li>
-                      <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Gymnasium
+                      <li><a href="/gymnasium-facility.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Gymnasium
                           Facility</a></li>
                       <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Facility for
                           Differently-Abled</a></li>
@@ -366,7 +366,7 @@
                 <li class="dropdown-header header_li_underline mont">Gallery</li>
                 <li><a href="/college-storage/Newsletter.pdf" target="_blank"><i
                       class="fa fa-angle-double-right text-secondary"></i>&nbsp;Newsletter</a></li>
-                <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;NSS</a></li>
+                <li><a href="/nss.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;NSS</a></li>
                 <li class="dropdown-header header_li_underline mont mt-2">Events (Gallery)</li>
                 <li><a href="Co_ciericules_Activities.php"><i
                       class="fa fa-angle-double-right text-secondary"></i>&nbsp;Co-Curricular Activities</a></li>
