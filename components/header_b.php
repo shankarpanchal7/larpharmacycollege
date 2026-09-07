@@ -321,9 +321,9 @@
                       </li>
                       <li><a href="/sc-st.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;SC-ST
                           Committee</a></li>
-                      <li><a href="/green-club-committe.php"><i
+                      <li><a target="_blank" href="/college-storage/Green club Committee (GCC).pdf"><i
                             class="fa fa-angle-double-right text-secondary"></i>&nbsp;Green Club Committee</a></li>
-                      <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Red Ribbon Club</a>
+                      <li><a target="_blank" href="/college-storage/Red Ribbon Club Committee.pdf"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Red Ribbon Club</a>
                       </li>
                     </ul>
                   </div>
@@ -345,7 +345,7 @@
                       <li class="dropdown-header header_li_underline mont">Student Facilities</li>
                       <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Sports Facility</a>
                       </li>
-                      <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Hostel Facility</a>
+                      <li><a href="/hostel-facility.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Hostel Facility</a>
                       </li>
                       <li><a href="/gymnasium-facility.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Gymnasium
                           Facility</a></li>
@@ -364,8 +364,13 @@
                 aria-expanded="false">Gallery</a>
               <ul class="my-sub-menu dropdown-menu md-dropdown-menu">
                 <li class="dropdown-header header_li_underline mont">Gallery</li>
-                <li><a href="/college-storage/Newsletter.pdf" target="_blank"><i
-                      class="fa fa-angle-double-right text-secondary"></i>&nbsp;Newsletter</a></li>
+                <li class="dropdown-header header_li_underline mont">Newsletters</li>
+                <li><a href="/college-storage/newsletters/Newsletter Issue 1.pdf" target="_blank"><i
+                      class="fa fa-angle-double-right text-secondary"></i>&nbsp;Newsletter Issue 1</a></li>
+                <li><a href="/college-storage/newsletters/Newsletter Issue 2.pdf" target="_blank"><i
+                      class="fa fa-angle-double-right text-secondary"></i>&nbsp;Newsletter Issue 2</a></li>
+                <li><a href="/college-storage/newsletters/Newsletter Issue 3.pdf" target="_blank"><i
+                      class="fa fa-angle-double-right text-secondary"></i>&nbsp;Newsletter Issue 3</a></li>
                 <li><a href="/nss.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;NSS</a></li>
                 <li class="dropdown-header header_li_underline mont mt-2">Events (Gallery)</li>
                 <li><a href="Co_ciericules_Activities.php"><i
