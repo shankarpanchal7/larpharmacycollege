@@ -3,47 +3,64 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
 
 <style>
-    .hostel-gallery-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
+    .masonry-grid {
+        column-count: 2;
+        column-gap: 14px;
         max-width: 960px;
         margin: 0 auto;
     }
 
-    .hostel-gallery-grid a {
+    .masonry-item {
+        break-inside: avoid;
+        margin-bottom: 14px;
         display: block;
+        border-radius: 12px;
         overflow: hidden;
-        border-radius: 8px;
-        border: 1px solid #dee2e6;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-        transition: box-shadow 0.3s ease;
+        position: relative;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.10);
+        transition: box-shadow 0.3s ease, transform 0.25s ease;
+        background: #f0f0f0;
     }
 
-    .hostel-gallery-grid a:hover {
-        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    .masonry-item:hover {
+        box-shadow: 0 10px 28px rgba(0,0,0,0.20);
+        transform: translateY(-4px);
     }
 
-    .hostel-gallery-grid img {
+    .masonry-item img {
         width: 100%;
-        height: 300px;
-        object-fit: cover;
+        height: auto;
         display: block;
-        transition: transform 0.3s ease;
+        border-radius: 12px;
+        transition: transform 0.35s ease;
     }
 
-    .hostel-gallery-grid a:hover img {
-        transform: scale(1.04);
+    .masonry-item:hover img {
+        transform: scale(1.03);
     }
 
-    @media (max-width: 600px) {
-        .hostel-gallery-grid {
-            grid-template-columns: 1fr;
-        }
+    .masonry-item::after {
+        content: '\f00e';
+        font-family: FontAwesome;
+        font-size: 1.6rem;
+        color: #fff;
+        position: absolute;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0,0,0,0);
+        border-radius: 12px;
+        transition: background 0.3s ease;
+        pointer-events: none;
+    }
 
-        .hostel-gallery-grid img {
-            height: 220px;
-        }
+    .masonry-item:hover::after {
+        background: rgba(0,0,0,0.28);
+    }
+
+    @media (max-width: 480px) {
+        .masonry-grid { column-count: 1; }
     }
 </style>
 
@@ -53,21 +70,39 @@
         <h2>Hostel Facility</h2>
 
         <div class="mb-4">
+            <p>
+                <strong>Loknete Appasaheb Rajale College of Pharmacy</strong> provides comfortable and secure hostel
+                accommodation for outstation students. The hostel is equipped with essential amenities to ensure a
+                conducive living and learning environment. Round-the-clock security, hygienic dining facilities, and
+                a peaceful atmosphere help students focus on their academic pursuits.
+            </p>
         </div>
 
-        <div class="hostel-gallery-grid">
-            <a data-fancybox="hostel-gallery" href="/img/hostel-facility/1.jpeg" data-caption="Hostel Facility - View 1">
-                <img src="/img/hostel-facility/1.jpeg" alt="Hostel Facility View 1">
+        <h4 class="mb-3">Hostel Gallery</h4>
+
+        <div class="masonry-grid">
+
+            <a class="masonry-item" data-fancybox="hostel-gallery" href="/img/hostel-facility/1.jpeg" data-caption="Hostel Facility - View 1">
+                <img src="/img/hostel-facility/1.jpeg" alt="Hostel Facility View 1" loading="lazy">
             </a>
-            <a data-fancybox="hostel-gallery" href="/img/hostel-facility/2.jpeg" data-caption="Hostel Facility - View 2">
-                <img src="/img/hostel-facility/2.jpeg" alt="Hostel Facility View 2">
+
+            <a class="masonry-item" data-fancybox="hostel-gallery" href="/img/hostel-facility/2.jpeg" data-caption="Hostel Facility - View 2">
+                <img src="/img/hostel-facility/2.jpeg" alt="Hostel Facility View 2" loading="lazy">
             </a>
-            <a data-fancybox="hostel-gallery" href="/img/hostel-facility/3.jpeg" data-caption="Hostel Facility - View 3">
-                <img src="/img/hostel-facility/3.jpeg" alt="Hostel Facility View 3">
+
+            <a class="masonry-item" data-fancybox="hostel-gallery" href="/img/hostel-facility/3.jpeg" data-caption="Hostel Facility - View 3">
+                <img src="/img/hostel-facility/3.jpeg" alt="Hostel Facility View 3" loading="lazy">
             </a>
-            <a data-fancybox="hostel-gallery" href="/img/hostel-facility/4.jpeg" data-caption="Hostel Facility - View 4">
-                <img src="/img/hostel-facility/4.jpeg" alt="Hostel Facility View 4">
+
+            <a class="masonry-item" data-fancybox="hostel-gallery" href="/img/hostel-facility/4.jpeg" data-caption="Hostel Facility - View 4">
+                <img src="/img/hostel-facility/4.jpeg" alt="Hostel Facility View 4" loading="lazy">
             </a>
+
+            <!-- Add more images below as needed -->
+            <!-- <a class="masonry-item" data-fancybox="hostel-gallery" href="/img/hostel-facility/11.jpeg" data-caption="Hostel Facility - View 11">
+                <img src="/img/hostel-facility/11.jpeg" alt="Hostel Facility View 11" loading="lazy">
+            </a> -->
+
         </div>
 
     </div>

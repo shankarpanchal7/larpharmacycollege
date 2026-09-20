@@ -146,6 +146,9 @@ include_once("components/header_b.php"); ?>
                 </table>
 
             </div>
+            <div class="bg-light py-2 px-4">
+                <a href="https://forms.gle/tmDi8xEmAdXMsPLU9" target="_blank" rel="noopener noreferrer"> Women's Grievance Form for Complaint &nbsp;<i class="icon ion-md-open"></i></a>
+            </div>
 
         </div>
 

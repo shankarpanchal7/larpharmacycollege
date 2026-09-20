@@ -343,14 +343,14 @@
                   <div class="col-md-3">
                     <ul class="my-sub-menu-nav">
                       <li class="dropdown-header header_li_underline mont">Student Facilities</li>
-                      <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Sports Facility</a>
+                      <li><a href="/sports-facility.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Sports Facility</a>
                       </li>
                       <li><a href="/hostel-facility.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Hostel Facility</a>
                       </li>
-                      <li><a href="/gymnasium-facility.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Gymnasium
-                          Facility</a></li>
-                      <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Facility for
-                          Differently-Abled</a></li>
+                      <li><a href="/gymnasium-facility.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Gymnasium Facility</a>
+                      </li>
+                      <li><a href="/facility-for-differently-abled.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Facility for Differently-Abled</a>
+                      </li>
                     </ul>
                   </div>
                 </div>
