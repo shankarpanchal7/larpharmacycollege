@@ -241,7 +241,7 @@
                             class="fa fa-angle-double-right text-secondary"></i>&nbsp;Second Year</a></li>
                       <li><a href="academic-timetable.php?id=bpharm-3"><i
                             class="fa fa-angle-double-right text-secondary"></i>&nbsp;Third Year</a></li>
-                      <!-- <li><a target="_blank" href="academic-timetable.php?id=bpharm-4"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Final Year</a></li> -->
+                      <li><a target="_blank" href="academic-timetable.php?id=bpharm-4"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Final Year</a></li>
 
                       <li class="dropdown-header header_li_underline mont mt-3">Departments</li>
                       <li><a href="/faculty.php"><i

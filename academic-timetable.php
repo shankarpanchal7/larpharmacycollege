@@ -60,16 +60,16 @@ $timetables = [
         ],
         [
             'id' => 'bpharm-4',
-            'heading' => 'B.Pharm Fourth Year',
+            'heading' => 'B.Pharm Final Year',
             'title' => 'Semester VII',
             'image' => '/college-storage/academic-timetable/b_pharm/b_pharm_sem7.jpg'
         ],
-        [
-            'id' => 'bpharm-4',
-            'heading' => 'B.Pharm Fourth Year',
-            'title' => 'Semester VIII',
-            'image' => '/college-storage/academic-timetable/b_pharm/b_pharm_sem8.jpg'
-        ],
+        // [
+        //     'id' => 'bpharm-4',
+        //     'heading' => 'B.Pharm Final Year',
+        //     'title' => 'Semester VIII',
+        //     'image' => '/college-storage/academic-timetable/b_pharm/b_pharm_sem8.jpg'
+        // ],
     ],
 ];
 
