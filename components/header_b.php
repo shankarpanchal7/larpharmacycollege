@@ -308,18 +308,18 @@
                       <li class="dropdown-header header_li_underline mont">Student Support</li>
                       <li><a href="/women-grievance-redressalcell.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Women Grievance
                           Committee</a></li>
-                      <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Student Grievance
+                      <li><a target="_blank" href="/college-storage/student-support/Grievance Redressal Committee.pdf"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Student Grievance
                           Redressal Committee</a></li>
                       <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Internal Complaint
                           Committee</a></li>
-                      <li><a href="/anti-ragging-committee.php"><i
+                      <li><a target="_blank" href="/college-storage/student-support/Anti Ragging Committee.pdf"><i
                             class="fa fa-angle-double-right text-secondary"></i>&nbsp;Anti-Ragging Cell</a></li>
                       <li><a href="#"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Sexual Harassment
                           Committee</a></li>
-                      <li><a href="/anti-discrimination-cell.php"><i
+                      <li><a target="_blank" href="/college-storage/student-support/Anti Discrimination Committee.pdf"><i
                             class="fa fa-angle-double-right text-secondary"></i>&nbsp;Anti-Discrimination Committee</a>
                       </li>
-                      <li><a href="/sc-st.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;SC-ST
+                      <li><a target="_blank" href="/college-storage/student-support/SC ST Committee.pdf"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;SC-ST
                           Committee</a></li>
                       <li><a target="_blank" href="/college-storage/Green club Committee (GCC).pdf"><i
                             class="fa fa-angle-double-right text-secondary"></i>&nbsp;Green Club Committee</a></li>
@@ -379,7 +379,7 @@
                     Events</a></li>
                 <li><a href="out_reach.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;Outreach
                     Events</a></li>
-                <li><a href="news_gallery.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;News
+                <li><a href="/news-gallery.php"><i class="fa fa-angle-double-right text-secondary"></i>&nbsp;News
                     Gallery</a></li>
               </ul>
             </li>

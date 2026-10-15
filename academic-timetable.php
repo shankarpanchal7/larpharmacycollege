@@ -40,12 +40,12 @@ $timetables = [
             'title' => 'Semester III',
             'image' => '/college-storage/academic-timetable/b_pharm/b_pharm_sem3.jpg'
         ],
-        [
-            'id' => 'bpharm-2',
-            'heading' => 'B.Pharm Second Year',
-            'title' => 'Semester IV',
-            'image' => '/college-storage/academic-timetable/b_pharm/b_pharm_sem4.jpg'
-        ],
+        // [
+        //     'id' => 'bpharm-2',
+        //     'heading' => 'B.Pharm Second Year',
+        //     'title' => 'Semester IV',
+        //     'image' => '/college-storage/academic-timetable/b_pharm/b_pharm_sem4.jpg'
+        // ],
         [
             'id' => 'bpharm-3',
             'heading' => 'B.Pharm Third Year',
